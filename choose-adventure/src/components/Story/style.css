@@ -1,7 +1,17 @@
 .story-div {
-    border: 2px solid black;
+    background-color: black;
+    color: #b34180;
+    border: 5px solid #b34180;
     width: 50%;
+    height: 450px;
     margin-left: 25%;
     margin-top: 10%;
-    padding: 5px;
+    padding: 25px;
 }
+
+.choice-div {
+    padding-top: 20px;
+    width: 300px;
+    margin: 15px auto 0 auto;
+}
+

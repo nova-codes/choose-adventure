@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import plot from "../../utils/plot";
 import './style.css';
 
-function Story(){
+function Story(props){
+    const [count, setCount] = useState(0);
+
+    function nextStep(){
+        setCount(count + 1);
+    }
+
+    function prevStep(){
+        setCount(count - 1);
+    }
+
     return(
         <div className="story-div">
-            <h2>Crimson masonry:</h2>
-            <p>Alarum foreboding abyssal masquerade doorstep aghast inexplicable anguish casket diminished grievous coach and six palpitations asylum somnolent restless. Gaunt looming ruin memento. Fateful innocence concupiscence of her misfortune overcome condemnatory coach and six fetid too great a passion.</p>
-            <p>Choler engraven, untoward utterance smothered sought trepidation prudent ill health revelation. Candelabrum damned of my stalk charnel bedewed fall forlorn disquiet paleness. Despondently wakened door outpouring; esoteric appetency pendulum.</p>
+            <h2 id="plotTitle">{plot[count].title}</h2>
+            <p id="plotContent">{plot[count].content}</p>
+            <div className="choice-div">
+                <button onClick={nextStep} className="btn-light btn choice-btn">{plot[count].choice1}</button>
+                <button onClick={prevStep} className="btn-light btn choice-btn">{plot[count].choice2}</button>
+            </div>
         </div>
     )
 }
