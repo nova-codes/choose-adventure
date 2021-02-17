@@ -19,7 +19,7 @@ const plot = [
             target: 2
         },{
             text: "Do something dangerous",
-            target: 100
+            target: 101
         },{
             text: "Sit and cry.",
             target: 99
@@ -50,12 +50,12 @@ const plot = [
         content: "If you click to continue, you'll crash my application. >}8-()",
         choices: []
     },{
-        id: 99,
+        id: 100,
         title: "The end!",
         content: "You're lazy and got murdered.",
         choices: []
     },{
-        id: 100,
+        id: 101,
         title: "The end!",
         content: "You suck and died.",
         choices: []

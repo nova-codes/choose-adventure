@@ -24,7 +24,7 @@ function Story(){
             <h2 id="plotTitle"></h2>
             <p id="plotContent"></p>
             <div className="choice-div">
-                {plot.choices.map(choice => (
+                {currentNode.choices.map(choice => (
                     <button>{choice.text}</button>
                 ))}
             </div>
@@ -36,3 +36,4 @@ export default Story;
 
 
 // {plot.choices.map(createChoices)}
+
