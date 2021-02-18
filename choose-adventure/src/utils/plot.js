@@ -1,5 +1,4 @@
-const plot = [
-  {
+const plot = {
     id: 0,
     title: "Welcome to Camp Slaughter!",
     content:
