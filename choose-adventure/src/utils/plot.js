@@ -1,109 +1,219 @@
-const plot = [
-    {
-        id: 0,
-        title: "Welcome to Camp Slaughter!",
-        content: "You've just arrived at summer camp and are ready to have a great time. OR ARE YOU?!",
-        choices: [{
-            text: "Go on!",
-            target: 1
-        },{
-            text: "Turn back!",
-            target: 8
-        }]
-    },{
-        id: 1,
-        title: "Part 1",
-        content: "Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. De carne cerebro lumbering animata cervello corpora quaeritis. Summus thalamus brains sit​​, morbo basal ganglia vel maleficia? De braaaiiiins apocalypsi gorger omero prefrontal cortex undead survivor fornix dictum mauris. Hi brains mindless mortuis limbic cortex soulless creaturas optic nerve, imo evil braaiinns stalking monstra hypothalamus adventus resi hippocampus dentevil vultus brain comedat cerebella pitiutary gland viventium. Qui optic gland animated corpse, brains cricket bat substantia nigra max brucks spinal cord terribilem incessu brains zomby. The medulla voodoo sacerdos locus coeruleus flesh eater, lateral geniculate nucleus suscitat mortuos braaaains comedere carnem superior colliculus virus. Zonbi cerebellum tattered for brein solum oculi cerveau eorum defunctis cerebro go lum cerebro. Nescio brains an Undead cervello zombies. Sicut thalamus malus putrid brains voodoo horror. Nigh basal ganglia tofth eliv ingdead.",
-        choices: [{
-            text: "Go on!",
-            target: 2
-        },{
-            text: "Do something dangerous",
-            target: 9
-        },{
-            text: "Sit and cry.",
-            target: 8
-        }]
-    },{
-        id: 2,
-        title: "Part 2",
-        content: "Cum prefrontal cortex horribilem walking fornix dead resurgere brains de crazed limbic cortex optic nerve sepulcris creaturis, braaaaaiins zombie sicut hypothalamus de grave hippocampus feeding iride brainz et serpens. Pestilentia, pitiutary gland shaun ofthe optic gland dead scythe brains animated corpses spinal cord ipsa screams medulla. Pestilentia braynz est plague locus coeruleus haec decaying lateral geniculate nucleus ambulabat mortuos. Sicut breins zeder apathetic superior colliculus malus voodoo. Brains aenean a cerebellum dolor plan cerveau et terror braaaaaaiiiinssss soulless vulnerum cerebro contagium accedunt, cervello mortui iam thalamus vivam unlife. Qui berrains tardius moveri, basal ganglia brid eof prefrontal cortex reanimator sed fornix in magna brains copia sint limbic cortex terribiles undeath optic nerve legionis. Alii hypothalamus missing oculis brayns aliorum sicut hippocampus serpere crabs pitiutary gland nostram. Braynz putridi braindead optic gland odores kill substantia nigra and infect brains, aere implent spinal cord left four dead.",
-        choices: [{
-            text: "Go to Part 3",
-            target: 3
-        },{
-            text: "Go to Part 7",
-            target: 7
+const plot = {
+    id: 0,
+    title: "Welcome to Camp Slaughter!",
+    content:
+      "You've just arrived at summer camp and are ready to have a great time. OR ARE YOU?!",
+    choices: [
+      {
+        text: "Get off the Bus &amp; Get Your Cabin Assignment",
+        target: 1,
+      }
+    ],
+  },
+  {
+    id: 1,
+    title: "Chapter 1",
+    content:
+      "Once you arrive at camp, you get to the cabins where everyone is checking in and try to get your cabin, but notice your name isn’t on the list... You try to talk to the camp leaders, but they’re busy and are ignoring you - so you find a bunk in an empty cabin at the edge of camp. You throw your stuff on your bed and head out to the first activity",
+    choices: [
+      {
+        text: "Go talk to the counselor",
+        target: 2,
+      },
+      {
+        text: "Try to Find Your Cabin Alone",
+        target: 101,
+      }
+    ],
+  },
+  {
+    id: 2,
+    title: "Chapter 2",
+    content:
+      "Tug of war - teams are chosen, her team wins, but nobody high fives her once they win. This upset her ? confusion",
+    choices: [
+        {
+        text: "Try to pull with all of your might",
+        // target: 2,
+    
+        },
+        {
+        text: "Let go of rope",
+        target: ,
         }
-        ]
-    },{
-        id: 3,
-        title: "Part 3",
-        content: "Medulla lucio brains fulci tremor locus coeruleus est dark vivos lateral geniculate nucleus magna. Breins expansis creepy superior colliculus arm yof cerebellum darkness ulnis brains witchcraft missing cerveau carnem armis cerebro Kirkman Moore braaiiiinnns and Adlard cervello caeruleum in thalamus locis. Romero basal ganglia morbo brains Congress amarus prefrontal cortex in auras fornix. Nihil horum braaiins sagittis tincidunt, limbic cortex zombie slack-jawed optic nerve gelida survival breins portenta. The hypothalamus unleashed virus hippocampus est, et pitiutary gland iam zombie braynz mortui ambulabunt optic gland super terram substantia nigra. Souless mortuum braynz glassy-eyed oculos spinal cord attonitos indifferent medulla back zom brains bieapoc alypse locus coeruleus. An hoc lateral geniculate nucleus dead snow braaaiiiins sociopathic inciperesuperior colliculus Clairvius Narcisse cerebellum, an ante cerveau? Is bello brains mundi z?",
-        choices: [{
-            text: "Go to Part 4",
-            target: 4
-        }]
-    },{
-        id: 4,
-        title: "Part 4",
-        content: "In Craven cerebro omni memoria cervello patriae zombieland breins clairvius narcisse thalamus religionis sunt sweet bread diri undead basal ganglia historiarum. Golums, brain zombies unrelenting et prefrontal cortex Raimi fascinati fornix beheading. Maleficia! Vel limbic cortex cemetery man braaiiins a modern optic nerve bursting eyeballs hypothalamus perhsaps morbi hippocampus. A terrenti Brains flesh contagium pitiutary gland. Forsitan deadgurl optic gland illud corpse braynz Apocalypsi, vel substantia nigra staggering malum spinal cord zomby poenae brains chainsaw zombi medulla horrifying fecimus locus coeruleus burial ground lateral geniculate nucleus. Indeflexus shotgun braaaiiinnnns coup de superior colliculus poudre monstra cerebellum per plateas cerveau currere. Fit brains de decay cerebro nostra carne cervello undead. Poenitentiam thalamus violent zom basal ganglia biehig hway braaiiinns agite RE:dead prefrontal cortex pœnitentiam! Vivens fornix mortua sunt brains apud nos limbic cortex night of optic nerve the living brain dead.",
-        choices: [{
-            text: "Go to Part 5",
-            target: 5
-        }]
-    },{
-        id: 5,
-        title: "Part 5",
-        content: "Whyt zomby brains Ut fames hypothalamus after death hippocampus cerebro virus pitiutary gland enim carnis optic gland grusome, viscera substantia nigra et organa braaiiins viventium. Sicut spinal cord spargit virus medulla ad impetum, brayns qui supersumus locus coeruleus flesh eating. Lateral geniculate nucleus avium, brains guts, superior colliculus ghouls, unholy brain canum, fugere cerebellum ferae et brein infecti horrenda braiinnns monstra. Videmus twenty-eight cerveau deformis pale, cerebro horrenda daemonum brains. Panduntur brains cervello portae rotting thalamus inferi. Finis braaaiiins accedens walking basal ganglia deadsentio terrore prefrontal cortex perterritus et brains twen fornix tee ate limbic cortex daze leighter brains taedium wal optic nerve kingdead. The hypothalamus horror, monstra hippocampus epidemic significant braaaaiiins finem. Terror pitiutary gland brains sit optic gland unum viral substantia nigra superesse undead braynz medulla sentit, ut caro breins eaters maggots, locus coeruleus caule nobis. Brains.",
-        choices: [{
-            text: "Go to Part 6",
-            target: 6
-        }]
-    },{
-        id: 6,
-        title: "The end!",
-        content: "If you click to continue, you'll crash my application. >}8-()",
-        choices: [{
-            text: "Don't you DARE click this...",
-            target: 10
-        }]
-    },{
-        id: 7,
-        title: "SECRET ENDING!",
-        content: "EVERYONE DIES BUT YOU! WOW!",
-        choices: [{
-            text: "Hello, go to 1",
-            target: 1
-        },{
-            text: "Hello, go to 2",
-            target: 2
-        }]
-    },{
-        id: 8,
-        title: "The end!",
-        content: "You're a little baby and got murdered.",
-        choices: [{
-            text: "Start over?",
-            target: 0
-        }]
-    },{
-        id: 9,
-        title: "The end!",
-        content: "You did something stupid and got murdered.",
-        choices: [{
-            text: "Start over?",
-            target: 0
-        }]
-    },{
-        id: 10,
-        title: "The end!",
-        content: "You survived and enacted bloody revenge on the killer.",
-        choices: [{ 
-            text: "Start over?",
-            target: 0
-        }]
-    }
+
+    ],
+  },
+  {
+    id: 3,
+    title: "Chapter 3",
+    content:
+      "It's lunch time. You're not hungry though. You're hands are hurting and you're upset and wondering why no one congratulated you on the big win... after all, you carried the team to victory... You grab your sloppy joes from the cafeteria - choose where to sit:",
+    choices: [
+        {
+            text: "Sit with the winning team",
+            target: 201,
+        },
+        {
+            text: "Sit Alone",
+            target: 4,
+        }
+    ],
+  },
+  {
+    id: 4,
+    title: "Chapter 4",
+    content:
+      "Hi, I'm Ezra, --conversation here-- Do you wanna hang out with me? Or are you going swimming with everyone else?",
+    choices: [
+        {
+            text: "Hang out with Ezra",
+            target: 5,
+        },
+        {
+            text: "Go swimming",
+            target: 6,
+        }
+    ],
+  },
+  {
+    id: 5,
+    title: "Chapter 5",
+    content:
+      "Ezra and Jesse go for a walk",
+    choices: [
+        {
+            text:"",
+            target: ,
+        }
+    ],
+  },
+  {
+      id: 6,
+      title: "Chapter 5.5",
+      content: "Ezra, Jesse and the rest of the campers go swimming ",
+      choices: [
+          {
+              text: "",
+              target: ,
+          },
+      ],
+  },
+  {
+    id: 7,
+    title: "Chapter 8",
+    content: "Bonfire time --  Bonfire tells campfire story -- They get too scared and go back to their cabin - get shenanigan-sy and go to bed. Ezra and Jesse are going to be bunkmates from now on. Ezra got there late and is the bunkmate to Jesse",
+    choices: [
+        {
+            text: "Tell own story",
+            target: 202,
+
+        },
+        {
+            text: "Elbow Ezra, get them to tell story",
+            target: 203,
+        }
+    ],
+  },
+  {
+    id: 8,
+    title: "Chapter 9",
+    content: "Arrive at first activity - You don’t see the storyteller from the last night (Artie), camp counselor says “Artie is missing, don’t be alarmed”... 'were sending everyone to their cabins for the morning while the counselors search'",
+    choices: [
+        {
+            text: "Search for Artie?",
+            target: ,
+        },
+        {
+            text: "Go for a Walk",
+            target: ,
+        }
+    ], 
+  },
+  {
+    id: 9,
+    title: "Chapter 10",
+    content: "Jesse finds Artie’s body by the river - the same river they were walking by the day before and freaks out. Calls to Ezra, who shows up with Artie walking alongside him. Ezra is unphased. Ezra explains “I’m a medium, anyone who spends time with me experiences this 6th sense… kind of skirts the question, this place is haunted",
+    choices: [
+        {
+            text: "Jesse Answer/Reaction 1",
+            target: ,
+        },
+        {
+            text: "Jesse Answer/Reaction 2",
+            target: ,
+        }
+    ], 
+  },
+  {
+      id: 10,
+      title: "Chapter 11",
+      content: "(dream sequence)",
+      choices: [
+          {
+              text: "wake up",
+              target: ,
+          }
+
+      ],
+
+  },
+  {
+    id: 100,
+    title: "The end!",
+    content: "You're lazy and got murdered.",
+    choices: [],
+  },
+  {
+    id: 101,
+    title: "The end!",
+    content: "You suck and died.",
+    choices: [],
+  },
+  {
+    id: 201,
+    title: "Chapter 3.5",
+    content: "You go to sit down with the winning team when someone yells 'Jessie!' - you turn to go sit down as a beautiful blonde girl runs over to hug her friends and take your seat. 'So much for having such a popular name', you think to yourself",
+    choices: [
+        {
+            text: "Sit Alone",
+            target: 4,
+        }
+    ]
+  },
+  {
+    id: 202,
+    title: "Chapter 8.25",
+    content: "As soon as you clear your throat to start talking, you stand up, knees shaking, and feel Ezra pull you down and gently say 'maybe let someone else go... you seem like too much of a scaredy cat'",
+    choices: [
+        {
+            text: "Sit back down",
+            target: 4,
+        }
+    ]
+  }
+  {
+    id: 203,
+    title: "Chapter 8.5",
+    content: "You nudge Ezra to tell a story - 'I BET YOU WON'T TELL A STORY... I triple dog dare you to...' Ezra gets ready to tell his story when Aaron the camp counselor loudly announces it's time for some campfire songs." ,
+    choices: [
+        {
+            text: "Roll your eyes, sneak off to the cabin with Ezra",
+            target: 4,
+        }
+    ]
+  },
+  {
+      id: 204,
+      title: "Chapter 10.5",
+      content: " - she runs back to the cabin either way and jumps into bed and tries to convince herself it was a dream(if she doesn’t agree) (or falls asleep if she embraces it) ?"
+      choices: [
+          {
+              text: "Fall Asleep"
+              target: ,
+          }
+      ]
+  }
 ];
 
 export default plot;
