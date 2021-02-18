@@ -4,8 +4,8 @@ import { faSkullCrossbones } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
     return(
-        <footer class="footer">
-            <div class="container">
+        <footer className="footer">
+            <div className="container">
                 <a href="https://github.com/ethanrmcdowell/choose-adventure"><FontAwesomeIcon icon="github" /></a> FOOTER
             </div>
         </footer>
