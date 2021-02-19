@@ -35,7 +35,7 @@ const plot = [
     choices: [
         {
         text: "Try to pull with all of your might",
-        // target: 2,
+         target: ,
     
         },
         {
@@ -157,7 +157,116 @@ const plot = [
           }
 
       ],
+  },
+  {
+    id: 11,
+      title: "Chapter 12",
+      content: "**Wakes up startled** You wake up in the cabin, she had a dream she was drowning, she’s gasping, choking for air. Did we actually find Artie’s body? Sits up and Artie and Ezra are in the cabin playing chess.",
+      choices: [
+          {
+              text: "Talk to the Artie &amp; Ezra",
+              target: ,
+          },
+          {
+            text: "Demand Answers",
+            target: 205,
+          }
 
+      ],
+  },
+  {
+    id: 12,
+    title: "Chapter 13",
+    content: "another camp counselor, Dalonte has gone missing. Head of Camp, closes camp, gives backstory, people went missing a few decades ago, and now it’s happening again. Go back to your cabins, pack your shit up, we’re sending you guys home a week early.",
+    choices: [
+      {
+        text: "head back to the cabin",
+        target: 13,
+      }
+    ],
+  },
+  {
+    id: 13,
+    title: "Chapter 13",
+    content: "Where are Ezra and Artie?",
+    choices:[
+      {
+        text: "Search for them",
+        target: ,
+      },
+      {
+        text: "Tell a camp counselor",
+        target: 301,
+      },
+    ]
+  },
+  {
+    id: 14,
+    title: "Chapter 14 - The search for Ezra and Artie",
+    content: "Search around camp for Ezra and Artie",
+    choices: [
+      {
+        text: "check mess hall",
+        target: 15,
+      },
+      {
+        text: "check cafeteria",
+        target: 15,
+      },
+      {
+        text: "check girls bunk",
+        target: 15,
+      },
+      {
+        text: "check gymnasium",
+        target: 15,
+      }
+    ],
+  },
+  {
+    id: 15,
+    title: "Chapter 14.2",
+    content: "There is no one there...",
+    choices: [],
+  },
+  {
+    id: 16,
+    title: "Chapter 15",
+    content: "gets on the bus, The bus is running, everyone’s stuff is on the bus, no one is on the bus, and one is around. Gets off the bus to head to the main area and hears a voice she recognizes, and blacks out. ",
+    choices: [],
+  },
+  {
+    id: 17,
+    title: "Chapter 16",
+    content: "(at front of camp) gets on the bus, The bus is running, everyone’s stuff is on the bus, no one is on the bus, and one is around. Gets off the bus to head to the main area and hears a voice she recognizes, and blacks out. ",
+    choices: [],
+  },
+  {
+    id: 18,
+    title: "Chapter 17",
+    content: "(wakes up from black out) she wakes up in a canoe tied up, in a canoe. (ezra and artie are on the shore - they walk on water towards the canoes and go over to jesse and give jesse the option to kill the rest of the campers. Save yourself and kill the campers or watch Ezra and Artie drown all of the campers and then be drowned herself, which was a premonition from her dream before) ",
+    choices: [
+      {
+        text: "Save self",
+        target: 19,
+      },
+      {
+        text: "Save others",
+        target: 20,
+      },
+    ],
+  },
+  {
+    id: 19,
+    title: "Chapter 18",
+    content: "she materializes and people see her for the first time. She drowns each canoe, the only things around to hear the screams of the drawing children are the animals ",
+    choices: [],
+  },
+  {
+    id: 20,
+    title: "Chapter 19",
+    content: "(she drowns, wakes up from the dream and starts back in the cabin where they are playing chess after artie’s death.",
+    choices: [],
   },
   {
     id: 100,
@@ -192,7 +301,7 @@ const plot = [
             target: 4,
         }
     ]
-  }
+  },
   {
     id: 203,
     title: "Chapter 8.5",
@@ -206,15 +315,34 @@ const plot = [
   },
   {
       id: 204,
-      title: "Chapter 10.5",
-      content: " - she runs back to the cabin either way and jumps into bed and tries to convince herself it was a dream(if she doesn’t agree) (or falls asleep if she embraces it) ?"
+      title: "Chapter 12.5",
+      content: " - she runs back to the cabin either way and jumps into bed and tries to convince herself it was a dream(if she doesn’t agree) (or falls asleep if she embraces it) ?",
       choices: [
           {
-              text: "Fall Asleep"
+              text: "Fall Asleep",
               target: ,
           }
       ]
+  },
+  {
+    
+      id: 205,
+      title: "Chapter 10.5",
+      content: " if she “embraced it” - she goes over and knocks over the chess game and demands answers or asks questions about the situation",
+      choices: [
+          {
+              text: "Fall Asleep",
+              target: ,
+          }
+      ]
+  },
+  {
+    id: 301,
+    title: "OOF",
+    content: "You decide to go tell a camp counselor that Ezra and Artie are missing. As soon as you open the door to your cabin to the outside, you are knocked unconscious by a canoe paddle. Never to awake again.",
+    choices: [],
   }
+  
 ];
 
 export default plot;
