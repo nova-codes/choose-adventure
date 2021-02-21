@@ -1,16 +1,32 @@
 import React from "react";
-import Story from "../Story";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Story from "../Pages/Story";
 import NavBar from "../NavBar";
 import Footer from "../Footer";
-import './style.css';
+import Github from "../Pages/Github";
+import Admin from "../Pages/Admin";
+import "./style.css";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Story />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route path="/github">
+            <Github />
+          </Route>
+          <Route path="/admin">
+            <Admin />
+          </Route>
+          <Route path="/">
+            <Story />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
