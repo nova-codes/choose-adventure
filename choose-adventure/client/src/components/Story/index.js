@@ -31,13 +31,16 @@ function Story(){
     }
 
     return(
-        <div className="story-div">
-            <h2 id="plotTitle">{currentNode.title}</h2>
-            <p id="plotContent">{currentNode.content}</p>
-            <div className="choice-div">
-                {currentNode.choices.map(choice => (
-                    <button value={choice.id} onClick={() => onClick(choice)}>{choice.text}</button>
-                ))}
+        <div className='story-container'>
+            <div className="story-div">
+                <h2 id="plotTitle">{currentNode.title}</h2>
+                <p id="plotContent">{currentNode.content}</p>
+                <div className="choice-div">
+                    {currentNode.choices.map(choice => (
+                        <button value={choice.id} onClick={() => onClick(choice)}>{choice.text}</button>
+                    ))}
+                </div>
+                <div className='monitor-div'></div>
             </div>
         </div>
     )
