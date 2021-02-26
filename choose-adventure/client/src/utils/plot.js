@@ -15,7 +15,7 @@ const plot = [{
   content: "You approach the group by the basketball court, but no one responds to your arrival.",
   choices: [{
     text: "Scream at the group 'HELLO! I'm a brand new camper, want to be my friend?",
-    target: 17
+    target: 16
   },{
     text: "Sneakily get closer and listen to their conversation",
     target: 3
@@ -29,7 +29,7 @@ const plot = [{
     target: 4
   },{
     text: "Sit and think and cry.",
-    target: 18
+    target: 17
   }]
 },{
   id: 3,
