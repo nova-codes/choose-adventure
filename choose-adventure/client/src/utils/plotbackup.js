@@ -315,78 +315,98 @@ const plot = [{
     title: "Chapter 9",
     content: "Waking up startled in your cabin, you sit up abruptly in bed, gasping, choking for air. Was that actually Artie? Was Ezra telling me the truth? You sit up and groggily wipe your eyes and see Artie and Ezra on the other side of the cabin playing chess. \n You walk over to talk to Artie and Ezra. 'I need answers. Now' you demand, throwing the chess board to the floor. 'NONE of this makes any sense, ghosts aren’t real. You can’t just tell me someone’s a GHOST and expect me to be okay with it and carry on like nothing happened.' ",
     choices: [
-        {
+          {
             text: "How Did You Become a Medium?",
             target: 25,
-        },
-        {
-            text: "Is It Hereditary?",
-            target: 26,
-        },
-        {
-            text: "Do I Stay a Medium Even If We’re Apart?",
-            target: 27,
-        },
-        {
-            text: "How Did You Find Out You Were a Medium?",
-            target: 28,
-        },
-        {
-            text: "Can We Help Artie Figure Out Who Killed Him?",
-            target: 29,
-        },
+          },
+          {
+            text: "Continue on",
+            target: 30,
+          }
     ]
   },
   {
     id: 25,
     title: "Chapter 9 || How did you become a medium?",
-    content: "You nudge Ezra to tell a story - 'I BET YOU WON'T TELL A STORY... I triple dog dare you to...' Ezra gets ready to tell his story when Aaron the camp counselor loudly announces it's time for some campfire songs." ,
+    content: "Everyone is born with psychic abilities. We are familiar with our five senses: touch, taste, sight, hearing, smell. These all play a role in our psychic abilities, along with our sixth sense - intuition. These abilities can become stronger with practice, conditioning them like our muscles." ,
     choices: [
-        {
-            text: "Roll your eyes, sneak off to the cabin with Ezra",
-            target: 4,
-        }
+      {
+        text: "Is It Hereditary?",
+        target: 26,
+      },
+      {
+        text: "Continue on",
+        target: 30,
+      }
     ]
   },
   {
       id: 26,
       title: "Chapter 9 || Is It Hereditary?",
-      content: " - she runs back to the cabin either way and jumps into bed and tries to convince herself it was a dream(if she doesn’t agree) (or falls asleep if she embraces it) ?",
+      content: "Mediumship is often passed down through family trees, but it can sometimes manifest in someone who has experienced the loss of a loved one.",
       choices: [
-          {
-              text: "Fall Asleep",
-              target: ,
-          }
+        {
+          text: "Do I Stay a Medium Even If We’re Apart?",
+          target: 27,
+        },
+        {
+          text: "Continue on",
+          target: 30,
+        }
       ]
   },
   {
       id: 27,
       title: "Chapter 9 || Do I Stay a Medium Even If We’re Apart?",
-      content: " if she “embraced it” - she goes over and knocks over the chess game and demands answers or asks questions about the situation",
+      content: "Sure.",
       choices: [
-          {
-              text: "Fall Asleep",
-              target: ,
-          }
+        {
+          text: "How Did You Find Out You Were a Medium?",
+          target: 28,
+        },
+        {
+          text: "Continue on",
+          target: 30,
+        }
+      
       ]
   },
   {
     id: 28,
     title: "Chapter 9 || How Did You Find Out You Were a Medium?",
-    content: "You decide to go tell a camp counselor that Ezra and Artie are missing. As soon as you open the door to your cabin to the outside, you are knocked unconscious by a canoe paddle. Never to awake again.",
-    choices: [],
+    content: "Many mediums report contact with spirits starting when they were children. The mind of a child is more open to the energies of the universe and remnants of past lives may still linger. This allows spirits to bridge the veil and make contact.",
+    choices: [
+      {
+        text: "Can We Help Artie Figure Out Who Killed Him?",
+        target: 29,
+      },
+      {
+        text: "Continue on",
+        target: 30,
+      }
+    ],
   },
   {
     id: 29,
     title: "Chapter 9 || Can We Help Artie Figure Out Who Killed Him?",
-    content: "You decide to go tell a camp counselor that Ezra and Artie are missing. As soon as you open the door to your cabin to the outside, you are knocked unconscious by a canoe paddle. Never to awake again.",
-    choices: [],
+    content: "Mediums are not clairvoyants. Artie would have to know who killed him and communicate that with us.",
+    choices: [
+      {
+        text: "Continue on",
+        target: 30,
+      }
+    ],
   },
   {
     id: 30,
     title: "Chapter 9 || Ezra Shrugs",
     content: "Ezra stands up and shrugs, at a loss for words. He walks towards you and reaches for your hand as you dash out the cabin doors to head to the soccer field for the next activity.",
-    choices: [],
+    choices: [
+      {
+        text: "Continue on",
+        target: 30,
+      }
+    ],
   },
   {
     id: 31,
@@ -489,19 +509,6 @@ const plot = [{
         text: "The end",
         target: 41,
       },
-      
-    ],
-  },
-  {
-    id: 40,
-    title: "Chapter 13 - Fish Food",
-    content: "'Please Ezra! It doesn’t have to be this way!!' You plead, as Ezra slowly pulls the rope on your canoe that reveals a large hole. Your canoe starts to quickly fill with water. Ezra takes a paddle in his hands and slowly helps push your canoe down under the water as you sit - completely unable to break free from your ties. You take one last breath as your eyes are surface level with the lake. The last thing you see is Ezra’s face - completely emotionless, watching you as everything goes black...",
-    choices: [
-      {
-        text: "The end",
-        target: 41,
-      },
-      
     ],
   },
 ];
