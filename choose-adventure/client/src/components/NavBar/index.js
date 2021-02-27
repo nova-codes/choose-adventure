@@ -1,22 +1,43 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSkullCrossbones } from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
+import React, {useContext} from 'react';
+import {Link} from 'react-router-dom';
+import AuthService from '../../services/AuthService';
+import {AuthContext} from '../../context/AuthContext';
 
-function NavBar() {
-  return (
-    <div className="container">
-      <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
-        <ul className="nav navbar-nav navbar-expand-lg">
-          <li className="nav-item pad"><a className="nav-link" href="/">HOME</a></li>
-          <li className="nav-item pad"><a className="nav-link" href="https://scontent.fdet1-1.fna.fbcdn.net/v/t1.0-9/42694351_266177507360652_8271805922003648512_n.jpg?_nc_cat=101&ccb=3&_nc_sid=8bfeb9&_nc_ohc=HFFlsYDIF1sAX-gvYhH&_nc_oc=AQnhQQKjv3bgu6WHYhlxQ6bggJuU9UOYcMLvKYtjnWsSQ7qaqWn7CRPuAqXPQXMHySQR7grJl3kd8u2-tKDfPqh0&_nc_ht=scontent.fdet1-1.fna&oh=3490df53d029bb30a6975d2bc12e6de1&oe=604EF2C2">ADMIN</a></li>
-          <li className="nav-item"><a className="nav-link" href="https://github.com/ethanrmcdowell/choose-adventure">GITHUB</a></li>
-        </ul>
-      </nav>
-    </div>
-  );
+function Navbar(props) {
+  const {isAuthenticated, user, setIsAuthenticated, setUser} = useContext(AuthContext);
+
+  return(<div className="container">
+  <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
+    <ul className="nav navbar-nav navbar-expand-lg">
+      <li>List items go here!</li>
+      <li>Yup, right here!</li>
+    </ul>
+  </nav>
+  </div>)
 }
 
-export default NavBar;
+export default Navbar;
 
-/* <p><FontAwesomeIcon icon={faSkullCrossbones} /> CAMP SLAUGHTER</p> */
+
+
+/* <div className="container">
+<nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
+  <ul className="nav navbar-nav navbar-expand-lg">
+    <li>nav list items</li>
+  </ul>
+</nav>
+</div> */
+
+
+
+/* <li className="nav-item pad">
+<Link to="/">
+  <div className="nav-link">HOME</div>
+</Link>
+</li>
+<li className="nav-item pad">
+<Link to="/login">ADMIN</Link>
+</li>
+<li className="nav-item">
+<Link to="https://github.com/ethanrmcdowell/choose-adventure">GITHUB</Link>
+</li> */
