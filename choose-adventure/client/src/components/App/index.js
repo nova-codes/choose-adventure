@@ -24,27 +24,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// function App() {
-//   return (
-//     <Router>
-//       <div>
-//         <NavBar />
-//         <Switch>
-//           <Route path="/github">
-//             <Github />
-//           </Route>
-//           <Route path="/admin">
-//             <Admin />
-//           </Route>
-//           <Route path="/">
-//             <Story />
-//           </Route>
-//         </Switch>
-//         <Footer />
-//       </div>
-//     </Router>
-//   );
-// }
