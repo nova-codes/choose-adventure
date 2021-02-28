@@ -15,3 +15,9 @@
     margin: 15px auto 0 auto;
 }
 
+.userChoice-btn {
+    border: 5px solid #b34180;
+    color: #fff;
+    background-color: #b34180;
+    padding: 10px 20px 10px 20px;
+}
