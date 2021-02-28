@@ -7,7 +7,10 @@ function Admin(){
   var currentNode = plot[node];
 
   const nodeIncrease = () => {
-    setNode(node + 1);
+    if(node < plot.length - 1)
+      setNode(node + 1);
+    else
+      return;
   }
 
   const nodeDecrease = () => {
@@ -21,10 +24,6 @@ function Admin(){
     setNode(choice);
   }
 
-  const firstNode = () => {
-    setNode(0);
-  }
-
   const lastNode = () => {
     let nodeLength = plot.length - 1;
     setNode(nodeLength);
@@ -34,7 +33,7 @@ function Admin(){
     <div className="dash-container">
       <h1>ADMIN DASHBOARD</h1>
       <div className="btn-div">
-        <button className="btn" onClick={firstNode}>{"<<"}</button>
+        <button className="btn" onClick={() => setNode(0)}>{"<<"}</button>
         <button className="btn" onClick={nodeDecrease}>-1</button>
         <button className="btn" onClick={nodeIncrease}>+1</button>
         <button className="btn" onClick={lastNode}>{">>"}</button>
