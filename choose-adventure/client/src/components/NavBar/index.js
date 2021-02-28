@@ -32,7 +32,7 @@ const NavBar = props => {
         <Link to="/admin">
           <li className="nav-item pad">DASHBOARD</li>
         </Link>
-        <button type="button" className="btn btn-link nav-item pad" onClick={onClickLogoutHandler}>LOGOUT</button>
+        <li type="button" className="btn btn-link nav-item pad" onClick={onClickLogoutHandler}>LOGOUT</li>
       </>
     )
   }
