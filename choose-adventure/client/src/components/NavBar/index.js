@@ -1,43 +1,94 @@
 import React, {useContext} from 'react';
 import {Link} from 'react-router-dom';
-import AuthService from '../../services/AuthService';
-import {AuthContext} from '../../context/AuthContext';
+import AuthService from '../../authentication/AuthService';
+import {AuthContext} from '../../authentication/AuthContext';
+import './style.css';
 
-function Navbar(props) {
-  const {isAuthenticated, user, setIsAuthenticated, setUser} = useContext(AuthContext);
+const NavBar = props => {
+  const { isAuthenticated, user, setIsAuthenticated, setUser } = useContext(AuthContext);
 
-  return(<div className="container">
-  <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
-    <ul className="nav navbar-nav navbar-expand-lg">
-      <li>List items go here!</li>
-      <li>Yup, right here!</li>
-    </ul>
-  </nav>
-  </div>)
+  const onClickLogoutHandler = () => {
+    AuthService.logout().then(data => {
+      if(data.success){
+        setUser(data.user);
+        setIsAuthenticated(false);
+      }
+    })
+  }
+
+  const unauthenticatedNavBar = () => {
+    return(
+      <>
+        <Link to="/login">
+          <li className="nav-item pad">ADMIN</li>
+        </Link>
+      </>
+    )
+  }
+
+  const authenticatedNavBar = () => {
+    return(
+      <>
+        <Link to="/admin">
+          <li className="nav-item pad">DASHBOARD</li>
+        </Link>
+        <button type="button" className="btn btn-link nav-item pad" onClick={onClickLogoutHandler}>LOGOUT</button>
+      </>
+    )
+  }
+
+  return(
+    <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
+      <ul className="nav navbar-nav navbar-expand-lg">
+        <li className="nav-item pad">
+          <Link to="/">
+            HOME
+          </Link>
+        </li>
+          { !isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
+      </ul>
+    </nav>
+  )
 }
 
-export default Navbar;
+export default NavBar;
 
 
 
-/* <div className="container">
-<nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
-  <ul className="nav navbar-nav navbar-expand-lg">
-    <li>nav list items</li>
-  </ul>
-</nav>
-</div> */
 
+// import React, {useContext} from 'react';
+// import {Link} from 'react-router-dom';
+// import './style.css';
+// import AuthService from '../../authentication/AuthService';
+// import { AuthContext } from '../../authentication/AuthContext';
 
+// function Navbar(props) {
+//   const {isAuthenticated, user, setIsAuthenticated, setUser} = useContext(AuthContext);
 
-/* <li className="nav-item pad">
-<Link to="/">
-  <div className="nav-link">HOME</div>
-</Link>
-</li>
-<li className="nav-item pad">
-<Link to="/login">ADMIN</Link>
-</li>
-<li className="nav-item">
-<Link to="https://github.com/ethanrmcdowell/choose-adventure">GITHUB</Link>
-</li> */
+//   const unauthenticatedNavBar = () => {
+//     return(
+//       <Link to="/login">ADMIN</Link>
+//     )
+//   }
+
+//   const authenticatedNavBar = () => {
+//     return(
+//       <Link to="/admin">ADMIN</Link>
+//     )
+//   }
+
+//   return(
+//     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
+//       <ul className="nav navbar-nav navbar-expand-lg">
+//       <li className="nav-item pad">
+//           <Link to="/">HOME</Link>
+//         </li>
+//         <li className="nav-item pad">
+//           { !isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar() }
+//         </li>
+//       </ul>
+//     </nav>
+//   )
+// }
+
+// export default Navbar;

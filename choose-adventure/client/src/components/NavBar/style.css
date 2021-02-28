@@ -6,5 +6,9 @@
 }
 
 .pad {
-    padding-right: 25px;
+    padding: 10px;
+}
+
+.navbar {
+    width: 40%;
 }

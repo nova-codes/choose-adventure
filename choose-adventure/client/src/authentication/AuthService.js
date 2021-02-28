@@ -1,4 +1,4 @@
-export const AuthService = {
+const AuthService = {
     login : user => {
         return fetch('/user/login', {
             method : "post",
@@ -26,6 +26,8 @@ export const AuthService = {
                     return res.json().then(data => data);
                 else
                     return { isAuthenticated : false, user : {username : ""}};
-            })
+            });
     }
 }
+
+export default AuthService;

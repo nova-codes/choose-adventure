@@ -1,10 +1,10 @@
 import React, {createContext, useState, useEffect} from 'react';
-import {AuthService} from "../services/AuthService";
+import AuthService from './AuthService';
 // Creating a GLOBAL STATE
 
 export const AuthContext = createContext();
 
-const LoginProcess = ({ children }) => {
+export const AuthProvider = ({ children }) => {
     const [user,setUser] = useState(null);
     const [isAuthenticated,setIsAuthenticated] = useState(false);
     const [isLoaded,setIsLoaded] = useState(false);
@@ -23,7 +23,5 @@ const LoginProcess = ({ children }) => {
                 { children }
             </AuthContext.Provider>}
         </div>
-    )
+    );
 }
-
-export default LoginProcess;
