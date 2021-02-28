@@ -1,0 +1,18 @@
+.dash-title {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.dash-container {
+    margin: 30px auto 0 auto;
+    width: 60%;
+    height: 600px;
+    background-color: #212121;
+
+}
+
+div h2, p {
+    color: pink;
+    padding: 15px;
+}

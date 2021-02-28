@@ -1,11 +1,23 @@
-import React from "react";
+import React from 'react';
+import './style.css';
+import plot from '../../../utils/plotbackup'
 
-const Admin = () => {
+function Admin(){
 
 
   return (
-    <div>
-      <h1>Admin</h1>
+    <div className="dash-container">
+      <h1 className="dash-title">ADMIN DASHBOARD</h1>
+      {plot.map((item) => (
+        <div>
+          <h2>{item.title}</h2>
+          <p>{item.content}</p>
+          <p>Choices: </p>
+          {item.choices.map((choice) => (
+            <p>{choice.text}</p>
+          ))}
+        </div>
+      ))}
     </div>
   );
 };
