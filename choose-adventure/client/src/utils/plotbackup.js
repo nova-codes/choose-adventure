@@ -460,7 +460,8 @@ const plot = [
   },
   {
     id: 31,
-    title: "Chapter 10 - Next Activity",
+    title: "Chapter 10",
+    admin: "Chapter 10 - Next Activity",
     content:
       "As you approach the soccer field, you notice a bunch of campers in separate groups, chatting with one another. Camp Counselor Heather makes an announcement over the megaphone: 'ATTENTION CAMPERS - PLEASE CIRCLE UP AND TAKE A SEAT, WE HAVE AN IMPORTANT ANNOUNCEMENT TO MAKE…' \nOnce the commotion subsides and everyone is seated, the head of camp, Barb starts to speak, hesitantly… 'Campers, we don’t want to alarm you, but another person has gone missing this week. Camp Counselor Dalonte has not been seen since last night’s game of Capture the Flag. Because of this, we think it would be best for all of you to go home early. We know it’s not ideal, but we don’t want to risk losing any more of you. We’ve contacted your families to come pick you up.’\nShe continues… ‘Back in 1974, when I was a camper, just like you, something like this began happening  where other campers went missing. First, one camper disappeared, then the numbers exponentially grew…until 13 campers and counselors seemed to vanish out of thin air. \nThey didn’t send us home, so we were stuck in our cabins every day, fearing we were next and  just praying we would be sent home. Police were called. Investigations were made. Pastors, rabbis, and any clergy folk  would try and cleanse the grounds. They all said the problem would never occur again after their “work,” so the camp remained open and the case of the missing persons became a mystery of the decade. I’ve gotten off track and I am not trying to scare you.\nYou all have 2 hours - head back to your cabins, pack up your things and meet at the main circle to load the buses.' The chatter and fear was palpable as everyone reluctantly stood up from their spots and quickly made their way back to their cabins to pack up their things.",
     choices: [
@@ -472,7 +473,8 @@ const plot = [
   },
   {
     id: 32,
-    title: "Chapter 10 - At Cabin",
+    title: "Chapter 10",
+    admin: "Chapter 10 - At Cabin",
     content:
       "Once you get back to your cabin, you notice the chessboard is cleaned up, the cabin is tidy, and Artie and Ezra are nowhere to be found. 'Dammit,' you think to yourself 'now is not the time to go missing, Ezra'.",
     choices: [
@@ -484,7 +486,8 @@ const plot = [
   },
   {
     id: 33,
-    title: "Chapter 10 - The Search",
+    title: "Chapter 10",
+    admin: "Chapter 10 - The Search",
     content:
       "You head for the door to start looking for Artie and Ezra and stop. 'No, you know what - Ezra can deal with this on his own. I need to stay safe' You begin grabbing your things from the cabin and pack them into your duffle bag. From afar, you hear a horn blaring.",
     choices: [
@@ -496,7 +499,8 @@ const plot = [
   },
   {
     id: 34,
-    title: "Chapter 11 - The Bus",
+    title: "Chapter 11",
+    admin: "Chapter 11 - The Bus",
     content:
       "As you follow the horn sound of the horn, you realize it’s coming from the bus at the main drop off area. You walk up to the bus and see that it’s running, but the driver doesn’t seem to be in it. The doors are wide open and there is a brick sitting on the steering wheel - firing the horn.",
     choices: [
@@ -508,7 +512,8 @@ const plot = [
   },
   {
     id: 35,
-    title: "Chapter 11 || On The Bus",
+    title: "Chapter 11",
+    admin: "Chapter 11 || On The Bus",
     content:
       "You step inside the hauntingly empty bus. You crouch down to see if anyone is hiding under the seats. As you stand up and walk to the back of the bus you see bags packed on each of the seats and you feel a cold breeze run up your spine so you rush to the wheel to take the brick off the horn. 'I didn’t think it’d be this easy'... you hear a familiar voice say from behind you.  You turn to find a familiar face standing in front of you and you brokenly say, 'EZR-' as you are struck over the head as you black out, you hear two voices giggling. ",
     choices: [
@@ -520,7 +525,8 @@ const plot = [
   },
   {
     id: 36,
-    title: "Chapter 12 - The final chapter",
+    title: "Chapter 12",
+    admin: "Chapter 12 - The final chapter",
     content:
       "You wake up, in a daze. Your head is pounding. You try to reach up to tend the wound on your forehead - blood is gushing from your forehead into your eye - as you try to wipe it away, you realize your hands are tied and there is no way for you to stop the bleeding. You look around and find yourself in a canoe floating on the Camp lake. You begin to breathe heavily as you try to squirm free. From the shore you see two hauntingly familiar figures that you identify as Artie and Ezra. \nEzra approaches the dock your canoe is tied to, slowly, kneels down, and looks you into the eyes. 'Hello. It’s time for you to make a decision. Whatever you choose will decide the fate of you and the other campers…'\nYou shake your head, petrified. ",
     choices: [
@@ -532,7 +538,8 @@ const plot = [
   },
   {
     id: 37,
-    title: "Chapter 12 || Dialogue",
+    title: "Chapter 12",
+    admin: "Chapter 12 || Dialogue",
     content:
       "There’s no time for questions. Choose. Save yourself, or save the innocent lives of the other campers",
     choices: [
@@ -544,7 +551,8 @@ const plot = [
   },
   {
     id: 38,
-    title: "Chapter 12 || Dialogue",
+    title: "Chapter 12",
+    admin: "Chapter 12 || Dialogue",
     content:
       "The choice is easy, really. Doesn’t everyone wish for freedom? Don’t you crave control? Say you'll join me, take the lives of the other campers. And we will leave here tonight and be free of these wretched people. Or, I can free you from your pain and in your sacrifice, I will free the others.  Don’t you think it’s time people got what was coming to them? Your choice...'  ",
     choices: [
@@ -560,7 +568,8 @@ const plot = [
   },
   {
     id: 39,
-    title: "Chapter 13 || Kill Campers",
+    title: "Chapter 13",
+    admin: "Chapter 13 || Kill Campers",
     content:
       "One by one, you and Ezra take turns pushing each canoe out to the middle of the lake. Before you do, you place a few heavy stones in each one and make a small hole in the middle so each slowly sinks into eternity. The shrieks from each camper can be heard by only the helpless wildlife nearby as they gurgle and drown. You see their souls leave their bodies…Are you finally happy being noticed? Is this what you craved all along? You are a monster and as you look at the blood on your hands, Ezra reaches his hand out to you and you both walk into the forest never to be seen again. ",
     choices: [
@@ -572,7 +581,8 @@ const plot = [
   },
   {
     id: 40,
-    title: "Chapter 13 || Die",
+    title: "Chapter 13",
+    admin: "Chapter 13 || Die",
     content:
       "'Please Ezra! It doesn’t have to be this way!!' You plead, as Ezra slowly pulls the rope on your canoe that reveals a large hole. Your canoe starts to quickly fill with water. Ezra takes a paddle in his hands and slowly helps push your canoe down under the water as you sit - completely unable to break free from your ties. You take one last breath as your eyes are surface level with the lake. The last thing you see is Ezra’s face - completely emotionless, watching you as everything goes black...",
     choices: [
@@ -585,6 +595,7 @@ const plot = [
   {
     id: 41,
     title: "Death",
+    admin: "Death",
     content: "You are smashed over the head with a large rock. Game over",
     choices: [
       {
