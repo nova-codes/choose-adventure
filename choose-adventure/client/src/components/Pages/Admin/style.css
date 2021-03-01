@@ -1,0 +1,28 @@
+.dash-title {
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+.dash-container {
+    margin: 30px auto 0 auto;
+    width: 60%;
+    height: 600px;
+    background-color: #212121;
+    padding: 15px;
+
+}
+
+h1, h2, p {
+    color: pink;
+}
+
+button {
+    background-color: pink !important;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
