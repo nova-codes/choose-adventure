@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import plot from '../../../utils/plotbackup'
+import {Dropdown} from 'react-bootstrap';
 
 function Admin(){
   const [node, setNode] = React.useState(0);
@@ -29,9 +30,27 @@ function Admin(){
     setNode(nodeLength);
   }
 
+  const handleSelect = e => {
+    setNode(e);
+  }
+
   return (
     <div className="dash-container">
       <h1>ADMIN DASHBOARD</h1>
+      <div className="dropdown-div">
+        <Dropdown>
+          <Dropdown.Toggle variant="light" className="dropdown" id="dropdown-basic">
+            Select a node
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            {plot.map((plotNode) => (
+              <Dropdown.Item onSelect={handleSelect} eventKey={plotNode.id}>{plotNode.id}: {plotNode.title}</Dropdown.Item>
+            ))}
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
+
       <div className="btn-div">
         <button className="btn" onClick={() => setNode(0)}>{"<<"}</button>
         <button className="btn" onClick={nodeDecrease}>-1</button>
