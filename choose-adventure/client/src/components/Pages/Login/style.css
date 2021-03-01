@@ -9,15 +9,14 @@
     padding: 25px;
 }
 
-.choice-div {
+.form-div {
     padding-top: 20px;
-    width: 300px;
-    margin: 15px auto 0 auto;
+    width: 400px;
+    margin: 20px auto 20px auto;
 }
 
-.userChoice-btn {
+.submit-btn {
     border: 5px solid #b34180;
     color: #fff;
     background-color: #b34180;
-    padding: 10px 20px 10px 20px;
 }

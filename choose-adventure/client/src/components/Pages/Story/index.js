@@ -36,7 +36,11 @@ function Story() {
       <p id="plotContent">{currentNode.content}</p>
       <div className="choice-div">
         {currentNode.choices.map((choice) => (
-          <button value={choice.id} onClick={() => onClick(choice)}>
+          <button
+            value={choice.id}
+            className="userChoice-btn"
+            onClick={() => onClick(choice)}
+          >
             {choice.text}
           </button>
         ))}

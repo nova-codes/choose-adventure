@@ -1,60 +1,63 @@
-import React, {useContext} from 'react';
-import {Link} from 'react-router-dom';
-import AuthService from '../../authentication/AuthService';
-import {AuthContext} from '../../authentication/AuthContext';
-import './style.css';
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import AuthService from "../../authentication/AuthService";
+import { AuthContext } from "../../authentication/AuthContext";
+import "./style.css";
 
-const NavBar = props => {
-  const { isAuthenticated, user, setIsAuthenticated, setUser } = useContext(AuthContext);
+const NavBar = (props) => {
+  const { isAuthenticated, user, setIsAuthenticated, setUser } = useContext(
+    AuthContext
+  );
 
   const onClickLogoutHandler = () => {
-    AuthService.logout().then(data => {
-      if(data.success){
+    AuthService.logout().then((data) => {
+      if (data.success) {
         setUser(data.user);
         setIsAuthenticated(false);
       }
-    })
-  }
+    });
+  };
 
   const unauthenticatedNavBar = () => {
-    return(
+    return (
       <>
         <Link to="/login">
-          <li className="nav-item pad">ADMIN</li>
+          <li className="nav-item pad nav-style">ADMIN</li>
         </Link>
       </>
-    )
-  }
+    );
+  };
 
   const authenticatedNavBar = () => {
-    return(
+    return (
       <>
         <Link to="/admin">
-          <li className="nav-item pad">DASHBOARD</li>
+          <li className="nav-item pad nav-style">DASHBOARD</li>
         </Link>
-        <li type="button" className="btn btn-link nav-item pad" onClick={onClickLogoutHandler}>LOGOUT</li>
+        <li
+          type="button"
+          className="btn btn-link nav-item pad nav-style"
+          onClick={onClickLogoutHandler}
+        >
+          LOGOUT
+        </li>
       </>
-    )
-  }
+    );
+  };
 
-  return(
+  return (
     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
       <ul className="nav navbar-nav navbar-expand-lg">
-        <li className="nav-item pad">
-          <Link to="/">
-            HOME
-          </Link>
+        <li className="nav-item pad nav-style">
+          <Link to="/">HOME</Link>
         </li>
-          { !isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
+        {!isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
 export default NavBar;
-
-
-
 
 // import React, {useContext} from 'react';
 // import {Link} from 'react-router-dom';
