@@ -2,6 +2,7 @@ const plot = [
   {
     id: 0,
     title: "Welcome to Camp Slaughter!",
+    admin: "Intro",
     content:
       " You stand, speechless on the shore, watching hundreds of kids sink into oblivion, while two mysterious voices maniacally giggle. The sound dissipates into the forest in all directions, leaving you alone with the weight of the horrific crime you have now become an accomplice in. ",
     choices: [
@@ -14,6 +15,7 @@ const plot = [
   {
     id: 1,
     title: "Chapter 1",
+    admin: "Chapter 1",
     content:
       " 'Hey...hey you,' a voice calls out. You snap out of the day dream you were having.Recently you've been having more of these nightmarish dreams that seem too lifelike. You take a breath, look around to see you made it to camp, and say, 'present.' \nClouds fill the sky on your first day of camp. Noticing other kids now staring, you gather yourself and walk over to the closest group and try to engage them in conversation. Per usual, you find yourself unable to connect with kids your own age, and you think to yourself, 'why is this so difficult for me to do?' \nYou arrive at the head cabin where everyone is checking in, but notice your name isn’t on any list. You try to talk to the camp leaders, but they’re busy and ignoring you - The other campers are making friends and pairing off for bunkmates, leaving you utterly alone with no one to room with. \nAs you meander to the cabin at the edge of camp, dragging your bags behind you, you find the first bunk in an empty cabin at the edge of camp. Lackadaisically, you toss your stuff on your bed and head out to the first activity. ",
     choices: [
@@ -26,6 +28,7 @@ const plot = [
   {
     id: 2,
     title: "Chapter 2",
+    admin: "Chapter 2",
     content:
       "As you arrive back at the main campground you see groups have formed up for a good old fashioned game of tug-of-war. You join the closest team and begin to pull with all your might. The rope leads onto the opposing team’s side and the team captain yells for everyone to pull. Snickering behind you are a couple of kids, who look your way and say, 'not like you’ll be any help!' Do You: ",
     choices: [
@@ -41,7 +44,8 @@ const plot = [
   },
   {
     id: 3,
-    title: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
+    title: "Chapter 2",
+    admin: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
     content:
       "As you muster up all your strength to show these kids what you’re made of...you pull on the rope and as you feel your feet dig into the earth all of a sudden the line goes slack and all the other kids let go as you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. 'Alright kids, time for lunch,' a counselor says, 'go hit the showers, clean yourself off, and join us when you're done!'",
     choices: [
@@ -53,7 +57,8 @@ const plot = [
   },
   {
     id: 4,
-    title: "Chapter 2 || Let Go of Rope",
+    title: "Chapter 2",
+    admin: "Chapter 2 || Let Go of Rope",
     content:
       "As you let go of the rope feeling like the kids seem to not want you there, the other team pulls harder every second and before you know it they’ve won. Your team turns to you and scowls, 'thanks a lot!' one kid shouts. As the kids leave for lunch one of them pushes you down and you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. 'Alright kids, time for lunch. You, hit the showers, clean yourself off, and join us when you're done!'",
     choices: [
@@ -65,7 +70,8 @@ const plot = [
   },
   {
     id: 5,
-    title: "Chapter 3 - Lunch",
+    title: "Chapter 3",
+    admin: "Chapter 3 - Lunch",
     content:
       "After returning from the showers and in a new set of clothes, you scan the room for a friend, just someone to have a connection with, but you then realize where you are. This is Camp A Goni, where you’ve been harassed and bullied for the past few years and yet your parents still force you here because it's 'good for you to make friends.' A sinking feeling in your stomach returns and decides you should…",
     choices: [
@@ -81,7 +87,8 @@ const plot = [
   },
   {
     id: 6,
-    title: "Chapter 3 || Sit With the Winning Team",
+    title: "Chapter 3",
+    admin: "Chapter 3 || Sit With the Winning Team",
     content:
       "As you walk over to the table with the winning team, you hope that with your 'help' on their win, you’d be welcomed...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. \nIt’s been a tough day and I could use a friend too.'The mysterious new kid introduces themself as Ezra and as you both chat and laugh you feel your anxiety melt away as time seems to slip away and before you know it, you hear someone shout, time for the swim! Everyone get your bathing suits and head to the lake! \nEzra turns to you and says, 'what do you want to do?'",
     choices: [
@@ -97,7 +104,8 @@ const plot = [
   },
   {
     id: 7,
-    title: "Chapter 3 || Sit Alone",
+    title: "Chapter 3",
+    admin: "Chapter 3 || Sit Alone",
     content:
       "As you walk over to the far side of the room...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. It’s been a tough day and I could use a friend too.\n'The mysterious new kid introduces themself as Ezra. As you both chat, laugh, and lose track of time, you feel your anxiety melt away as time seems to slip away endlessly and before you know it, you hear someone shout, ‘time for the swim! Everyone get your bathing suits and head to the lake!\n’Ezra turns to you and says, 'what do you want to do?'",
     choices: [
@@ -113,7 +121,8 @@ const plot = [
   },
   {
     id: 8,
-    title: "Chapter 4 - Swimming",
+    title: "Chapter 4",
+    admin: "Chapter 4 - Swimming",
     content:
       "Upon arriving at the lake,the campers are swimming, so you and Ezra decide to jump into the lake and both swim out, away from the other kids. Ezra asks 'You know I noticed how the others treat you. Why do you let them pick on you like that? They clearly are bullies and you deserve some pay back wouldn’t you agree?'",
     choices: [
