@@ -1,0 +1,12 @@
+.logo {
+    font: 70px/100% 'Yellowtail';
+    color: #36dede;
+    text-shadow: 1px 1px #ff3094,
+                 -1px 1px #ff3094,
+                 1px -1px #ff3094,
+                 -1px -1px #ff3094,
+                 4px 4px #7f0eef;
+    position: absolute;
+    left: 20px;
+    top: 20px; 
+}
