@@ -1,10 +1,23 @@
-
-
-.navbar {
-    width: 25%;
-    margin: auto;
+.pad {
+    padding: 10px;
 }
 
-.pad {
-    padding-right: 25px;
+.navbar {
+    background: rgb(47, 47, 47,0.8);
+    width: 100vw !important; 
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 10px solid #36dede;
+    position: relative; 
+}
+
+.nav-style a:hover {
+    color: white;
+}
+
+.nav-style {
+    font: 16px/100% 'Cutive Mono', monospace;
+    color: #f1f1f1;
+    letter-spacing: 2px; 
 }

@@ -1,31 +1,24 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import "./style.css";
+
+import PrivateRoute from "../../hocs/PrivateRoute";
 
 import Story from "../Pages/Story";
 import NavBar from "../NavBar";
-import Footer from "../Footer";
-import Github from "../Pages/Github";
+import Login from "../Pages/Login";
 import Admin from "../Pages/Admin";
-import "./style.css";
 
 function App() {
   return (
     <Router>
-      <div>
-        <NavBar />
-        <Switch>
-          <Route path="/github">
-            <Github />
-          </Route>
-          <Route path="/admin">
-            <Admin />
-          </Route>
-          <Route path="/">
-            <Story />
-          </Route>
-        </Switch>
-        <Footer />
-      </div>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Story} />
+        <Route exact path="/login" component={Login} />
+        <PrivateRoute path="/admin" component={Admin} />
+      </Switch>
     </Router>
   );
 }
