@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import AuthService from "../../authentication/AuthService";
 import { AuthContext } from "../../authentication/AuthContext";
 import "./style.css";
+import Logo from '../Logo';
 
 const NavBar = (props) => {
   const { isAuthenticated, user, setIsAuthenticated, setUser } = useContext(
@@ -48,6 +49,9 @@ const NavBar = (props) => {
   return (
     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
       <ul className="nav navbar-nav navbar-expand-lg">
+        <li>
+          <Logo />
+        </li>
         <li className="nav-item pad nav-style">
           <Link to="/">HOME</Link>
         </li>
