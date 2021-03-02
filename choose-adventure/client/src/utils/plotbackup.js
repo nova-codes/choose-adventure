@@ -1,6 +1,7 @@
 const plot = [
   {
     id: 0,
+    image: "",
     title: "Welcome to Camp Slaughter!",
     admin: "Intro",
     content:
@@ -14,6 +15,7 @@ const plot = [
   },
   {
     id: 1,
+    image: "./assets/images/ignored_1.png",
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
@@ -27,6 +29,7 @@ const plot = [
   },
   {
     id: 2,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2",
     content:
@@ -44,6 +47,7 @@ const plot = [
   },
   {
     id: 3,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
     content:
@@ -57,6 +61,7 @@ const plot = [
   },
   {
     id: 4,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2 || Let Go of Rope",
     content:
@@ -70,6 +75,7 @@ const plot = [
   },
   {
     id: 5,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 - Lunch",
     content:
@@ -87,6 +93,7 @@ const plot = [
   },
   {
     id: 6,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit With the Winning Team",
     content:
@@ -104,6 +111,7 @@ const plot = [
   },
   {
     id: 7,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit Alone",
     content:
@@ -121,6 +129,7 @@ const plot = [
   },
   {
     id: 8,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 - Swimming",
     content:
@@ -138,6 +147,7 @@ const plot = [
   },
   {
     id: 9,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 || Yes ",
     content:

@@ -33,6 +33,7 @@ function Story() {
   return (
     <div className="story-div">
       <h2 id="plotTitle">{currentNode.title}</h2>
+      <img id="plotImage" src="{currentNode.image}" />
       <p id="plotContent">{currentNode.content}</p>
       <div className="choice-div">
         {currentNode.choices.map((choice) => (
