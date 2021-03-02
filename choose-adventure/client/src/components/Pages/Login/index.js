@@ -28,7 +28,7 @@ const Login = (props) => {
   };
 
   return (
-    <div className="story-div">
+    <div className="login-div">
       <form onSubmit={onSubmit}>
         <h3>Please log in</h3>
         <label htmlFor="username" className="sr-only">

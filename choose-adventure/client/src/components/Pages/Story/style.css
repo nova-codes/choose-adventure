@@ -1,23 +1,51 @@
 .story-div {
-    background-color: black;
-    color: #b34180;
-    border: 5px solid #b34180;
-    width: 50%;
-    height: 450px;
-    margin-left: 25%;
-    margin-top: 10%;
-    padding: 25px;
+    background-color: #503D88;
+    color: #f1f1f1;
+    width: 40%;
+    min-height: 250px;
+    margin: 10% auto;
+    padding: 45px;
+    font: 16px/120% 'Cutive Mono', monospace;
+    border-radius: 10px; 
+}
+
+#plotTitle {
+    font: 50px/100% 'Yellowtail';
+    color: #36DEDE;
+    text-shadow: 1px 1px #ff3094,
+                 -1px 1px #ff3094,
+                 1px -1px #ff3094,
+                 -1px -1px #ff3094,
+                 4px 4px #7f0eef;
+    margin-bottom: 30px; 
+}
+
+#plotContent {
+    color: #f1f1f1;
 }
 
 .choice-div {
     padding-top: 20px;
-    width: 300px;
+    width: 100%;
     margin: 15px auto 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .userChoice-btn {
-    border: 5px solid #b34180;
+    border: 0;
+    outline: 0;
+    border-bottom: 5px solid #ff3094;
     color: #fff;
-    background-color: #b34180;
-    padding: 10px 20px 10px 20px;
+    background-color: #212121;
+    padding: 10px 30px;
+    border-radius: 30px; 
+    margin-bottom: 10px; 
+    max-width: 45%; 
+}
+
+.userChoice-btn:nth-child(even) {
+    border-bottom: 5px solid #36dede; 
 }
