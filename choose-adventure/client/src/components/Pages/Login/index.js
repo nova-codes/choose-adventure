@@ -30,7 +30,7 @@ const Login = (props) => {
   return (
     <div className="login-div">
       <form onSubmit={onSubmit}>
-        <h3>Please log in</h3>
+        <h3 className='login-text'>Please log in</h3>
         <label htmlFor="username" className="sr-only">
           Username:{" "}
         </label>
