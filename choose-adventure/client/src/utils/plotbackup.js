@@ -1,6 +1,7 @@
 const plot = [
   {
     id: 0,
+    image: "",
     title: "Welcome to Camp Slaughter!",
     admin: "Intro",
     content:
@@ -14,6 +15,7 @@ const plot = [
   },
   {
     id: 1,
+    image: "./assets/images/ignored_1.png",
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
@@ -27,6 +29,7 @@ const plot = [
   },
   {
     id: 2,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2",
     content:
@@ -44,6 +47,7 @@ const plot = [
   },
   {
     id: 3,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
     content:
@@ -57,6 +61,7 @@ const plot = [
   },
   {
     id: 4,
+    image: "",
     title: "Chapter 2",
     admin: "Chapter 2 || Let Go of Rope",
     content:
@@ -70,6 +75,7 @@ const plot = [
   },
   {
     id: 5,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 - Lunch",
     content:
@@ -87,6 +93,7 @@ const plot = [
   },
   {
     id: 6,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit With the Winning Team",
     content:
@@ -104,6 +111,7 @@ const plot = [
   },
   {
     id: 7,
+    image: "",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit Alone",
     content:
@@ -121,6 +129,7 @@ const plot = [
   },
   {
     id: 8,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 - Swimming",
     content:
@@ -138,6 +147,7 @@ const plot = [
   },
   {
     id: 9,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 || Yes ",
     content:
@@ -152,6 +162,7 @@ const plot = [
   {
     id: 10,
     title: "Chapter 4",
+    image: "",
     admin: "Chapter 4 || No ",
     content:
       "A large young man swims over to you as you both are talking and he introduces himself as Artie. He was the team captain on the opposing team from tug-of-war earlier. Artie says 'Hey, I’m really sorry about the actions of the kids earlier. That’s no way to handle fellow campers and I wanted to apologize. Any team would be lucky to have someone like you on it!' He smiles, quickly turns around, and swims away back to the other kids who are playing 'shark in the water.' Ezra gives him a side eye glance and scoffs. In the distance you hear the sound of a whistle calling everyone back to shore and ending the activity.",
@@ -165,6 +176,7 @@ const plot = [
   {
     id: 11,
     title: "Chapter 4",
+    image: "",
     admin: "Chapter 4 || Walk ",
     content:
       "Ezra convinces you to skip the activity and go for a walk around the lake. As you are walking you notice a large boulder and Ezra hops up on top of it. Ezra turns, looks down at you and asks 'Why do you let those kids pick on you? They clearly are bullies and deserve some pay back don’t you think? And before you have a second to answer Ezra hops back down, and pushes the boulder down the hill. As it tumbles down the hill picking up speed you:",
@@ -181,6 +193,7 @@ const plot = [
   },
   {
     id: 12,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 || Scream",
     content:
@@ -194,6 +207,7 @@ const plot = [
   },
   {
     id: 13,
+    image: "",
     title: "Chapter 4",
     admin: "Chapter 4 || Frozen",
     content:
@@ -207,6 +221,7 @@ const plot = [
   },
   {
     id: 14,
+    image: "",
     title: "Chapter 5",
     admin: "Chapter 5 - Campfire",
     content:
@@ -224,6 +239,7 @@ const plot = [
   },
   {
     id: 15,
+    image: "",
     title: "Chapter 5",
     admin: "Chapter 5 || Ezra Story",
     content:
@@ -237,6 +253,7 @@ const plot = [
   },
   {
     id: 16,
+    image: "",
     title: "Chapter 5",
     admin: "Chapter 5 || Your Story",
     content:
@@ -250,6 +267,7 @@ const plot = [
   },
   {
     id: 17,
+    image: "",
     title: "Chapter 5",
     admin: "Chapter 5 || Cabin",
     content:
@@ -263,6 +281,7 @@ const plot = [
   },
   {
     id: 18,
+    image: "",
     title: "Chapter 6",
     admin: "Chapter 6 - First Activity",
     content:
@@ -280,6 +299,7 @@ const plot = [
   },
   {
     id: 19,
+    image: "",
     title: "Chapter 6",
     admin: "Chapter 6 || Look for Artie",
     content:
@@ -297,6 +317,7 @@ const plot = [
   },
   {
     id: 20,
+    image: "",
     title: "Chapter 6",
     admin: "Chapter 6 || Fight",
     content:
@@ -311,6 +332,7 @@ const plot = [
   },
   {
     id: 21,
+    image: "",
     title: "Chapter 6",
     admin: "Chapter 6 || Run/Break Free",
     content:
@@ -324,6 +346,7 @@ const plot = [
   },
   {
     id: 22,
+    image: "",
     title: "Chapter 7",
     admin: "Chapter 7 - Back at the Cabin",
     content:
@@ -337,6 +360,7 @@ const plot = [
   },
   {
     id: 23,
+    image: "",
     title: "Chapter 8",
     admin: "Chapter 8 - The Dream",
     content:
@@ -350,6 +374,7 @@ const plot = [
   },
   {
     id: 24,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9",
     content:
@@ -367,6 +392,7 @@ const plot = [
   },
   {
     id: 25,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || How did you become a medium?",
     content:
@@ -384,6 +410,7 @@ const plot = [
   },
   {
     id: 26,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Is It Hereditary?",
     content:
@@ -401,6 +428,7 @@ const plot = [
   },
   {
     id: 27,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Do I Stay a Medium Even If We’re Apart?",
     content: "Sure.",
@@ -417,6 +445,7 @@ const plot = [
   },
   {
     id: 28,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || How Did You Find Out You Were a Medium?",
     content:
@@ -434,6 +463,7 @@ const plot = [
   },
   {
     id: 29,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Can We Help Artie Figure Out Who Killed Him?",
     content:
@@ -447,6 +477,7 @@ const plot = [
   },
   {
     id: 30,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Ezra Shrugs",
     content:
@@ -460,6 +491,7 @@ const plot = [
   },
   {
     id: 31,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - Next Activity",
     content:
@@ -473,6 +505,7 @@ const plot = [
   },
   {
     id: 32,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - At Cabin",
     content:
@@ -486,6 +519,7 @@ const plot = [
   },
   {
     id: 33,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - The Search",
     content:
@@ -499,6 +533,7 @@ const plot = [
   },
   {
     id: 34,
+    image: "",
     title: "Chapter 11",
     admin: "Chapter 11 - The Bus",
     content:
@@ -512,6 +547,7 @@ const plot = [
   },
   {
     id: 35,
+    image: "",
     title: "Chapter 11",
     admin: "Chapter 11 || On The Bus",
     content:
@@ -525,6 +561,7 @@ const plot = [
   },
   {
     id: 36,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 - The final chapter",
     content:
@@ -538,6 +575,7 @@ const plot = [
   },
   {
     id: 37,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -551,6 +589,7 @@ const plot = [
   },
   {
     id: 38,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -568,6 +607,7 @@ const plot = [
   },
   {
     id: 39,
+    image: "",
     title: "Chapter 13",
     admin: "Chapter 13 || Kill Campers",
     content:
@@ -581,6 +621,7 @@ const plot = [
   },
   {
     id: 40,
+    image: "",
     title: "Chapter 13",
     admin: "Chapter 13 || Die",
     content:
@@ -594,6 +635,7 @@ const plot = [
   },
   {
     id: 41,
+    image: "",
     title: "Death",
     admin: "Death",
     content: "You are smashed over the head with a large rock. Game over",
