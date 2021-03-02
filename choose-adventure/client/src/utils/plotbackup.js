@@ -207,8 +207,8 @@ const plot = [
   },
   {
     id: 13,
-    title: "Chapter 4",
     image: "",
+    title: "Chapter 4",
     admin: "Chapter 4 || Frozen",
     content:
       "You scream as loud as you can and all the kids down below in the lake look up at you and move out of the way as the boulder comes careening down the hill. 'Why’d you do that?!' Ezra angrily asks. You respond, 'You can’t hurt people just cause they hurt me.' You then run down to the lake and a young man you know as Artie approaches, thanking you for watching out for him and his friends. He then adds, 'we should get to the campfire, you can sit with us.’ You feel eyes staring at you as Ezra glares at you from afar. Ezra looks at you and says, 'we should get to the campfire before we get into more trouble.' ",
@@ -221,8 +221,8 @@ const plot = [
   },
   {
     id: 14,
-    title: "Chapter 5",
     image: "",
+    title: "Chapter 5",
     admin: "Chapter 5 - Campfire",
     content:
       "You and Ezra arrive at the bonfire after the other campers have already found spots close to the fire. You share a spot on a log on the edge of the group and decide to listen to the end of the last spooky story. '... and they never saw them again'  (faded in the distance). ",
@@ -239,8 +239,8 @@ const plot = [
   },
   {
     id: 15,
-    title: "Chapter 5",
     image: "",
+    title: "Chapter 5",
     admin: "Chapter 5 || Ezra Story",
     content:
       "You turn and nudge Ezra, 'you have to share a scary story now... I triple dog dare you...' Ezra stares back at, eyes wide. He shakes his head, shrugs, and clears his throat. Ehem - ‘HEY GUYS’ Artie abruptly interrupts the ghosts stories and announces 'how about we take a break from this and sing campfire songs' Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
@@ -253,8 +253,8 @@ const plot = [
   },
   {
     id: 16,
-    title: "Chapter 5",
     image: "",
+    title: "Chapter 5",
     admin: "Chapter 5 || Your Story",
     content:
       "You finally muster up the courage to tell a ghost story to the group, as you’ve wanted to impress Ezra. You stand up, knees shaking, heart beating out of your chest, and clear your throat to speak. 'EHEM - ' ‘HEY GUYS’ Artie abruptly interrupts the ghost stories and announces 'it’s time for some campfire songs' Ezra pulls you back down, noticeably irritated that Artie interrupted you before you could even tell your story. Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
@@ -267,8 +267,8 @@ const plot = [
   },
   {
     id: 17,
-    title: "Chapter 5",
     image: "",
+    title: "Chapter 5",
     admin: "Chapter 5 || Cabin",
     content:
       "Once You and Ezra arrive back at your cabin, you notice there is another camper’s bags on the bunk next to yours. 'Hey, looks like we’re bunkmates now' Ezra says through a grin…. 'My parents dropped me off late and this was the last bunk that was available for me. Guess you’re stuck with me for a few days'.",
@@ -281,8 +281,8 @@ const plot = [
   },
   {
     id: 18,
-    title: "Chapter 6",
     image: "",
+    title: "Chapter 6",
     admin: "Chapter 6 - First Activity",
     content:
       "The next day, you arrive at the soccer fields with the other campers for the next activity. The camp counselor has everyone stand in a circle and announces, 'There is no need to be alarmed, but our fellow camper, Artie, has gone missing. After the campfire last night, he went back to his bunk and hasn’t been seen since. So for everyone’s safety...today’s activity has been canceled while we go to look for him. You can grab some games from the Rec hall, but please stay in your cabins until you hear it’s safe to leave again.' Do You:",
@@ -299,8 +299,8 @@ const plot = [
   },
   {
     id: 19,
-    title: "Chapter 6",
     image: "",
+    title: "Chapter 6",
     admin: "Chapter 6 || Look for Artie",
     content:
       "You decide to go look for Artie. You head back to your cabin to grab some water and a blanket and plan out your next moves. You decide to go look by the river where you and Ezra went walking the day before. 'If I don’t find him, at least the sound of the water will help me clear my head,' you think to yourself. After walking alongside the river for a while, you notice a canoe on the shore. 'That wasn’t there yesterday,’ you think to yourself...You keep walking and finally, you see a young man, dripping water from every inch of him and realize...it’s Artie! \nYou stare, mouth agape, and shout ‘You’re soaking wet, let me dry you off!' You run over to him and attempt to throw your blanket around him to try to dry him off. As soon as the blanket touches him, it passes right through his non-corporeal form. You stare at him and back down at the ground at the blanket that passed right through his being. 'This can’t be happening…' you think to yourself, as you run over to pick up the blanket and try again. Once more, you frantically place your blanket on Artie’s shoulder as it drops to the ground. \nArtie turns to you confused, looking down at his hands. Shaking his head in confusion…. 'W-what's going on…' he stammers. 'Stay here, I will run for help!' you shout back as you throw your things down to run and find the nearest camp counselor. You take off running as someone grabs your hand to hold you back. It’s Ezra. 'Stop - you can’t go anywhere'.",
@@ -317,8 +317,8 @@ const plot = [
   },
   {
     id: 20,
-    title: "Chapter 6",
     image: "",
+    title: "Chapter 6",
     admin: "Chapter 6 || Fight",
     content:
       "You fall to the ground and start wrestling with Ezra. You have to break free and tell the camp counselors what’s going on. You and Ezra wrestle for a few moments until everything goes black. ... When you come to, your hands are tied behind you, you are in a canoe that is rapidly filling with water. Ezra is pushing the canoe under water with the paddle and slowly grins as he slowly submerges your body under the water. You take your last breath as your head falls under the water line and into the darkness forever.",
@@ -332,8 +332,8 @@ const plot = [
   },
   {
     id: 21,
-    title: "Chapter 6",
     image: "",
+    title: "Chapter 6",
     admin: "Chapter 6 || Run/Break Free",
     content:
       "You turn around and try to pry your hand free from Ezra’s grip, but he’s too strong. 'LET ME EXPLAIN!! IT’S NOT WHAT YOU THINK!' Ezra proclaims, as you hurriedly yank yourself away from him - still trying to escape his tightening grip. 'I’M A MEDIUM - THIS PLACE IS HAUNTED… JUST STOP STRUGGLING AND LET ME EXPLAIN!!' He yells. 'Fine.' you say stubbornly, but you stay over there. You grab the nearest stick and point it at Ezra, as if to protect yourself. \nEzra goes on to explain, 'I’m a medium… and this camp is haunted. I know that sounds crazy, and you have every right to not believe me… but it’s true,’ he continues. ‘The problem is, whoever is my friend, ends up seeing the dead too. It’s a blessing and a curse. I found Artie, out on the dock, shaking, soaking wet, and scared. Once you’ve died in a gruesome way, you have no memories relating to your death. It’s my job to help them pass over. I tried to help him but he was too shaken up to speak. That’s when I heard you coming down the path - so I hid.'",
@@ -346,8 +346,8 @@ const plot = [
   },
   {
     id: 22,
-    title: "Chapter 7",
     image: "",
+    title: "Chapter 7",
     admin: "Chapter 7 - Back at the Cabin",
     content:
       "You get back to your cabin, heart pounding out of your chest. You lay down on your bunk to try to wrap your mind around everything Ezra told you. 'This can’t be real… Can it?'.... as you drift off to sleep",
@@ -360,8 +360,8 @@ const plot = [
   },
   {
     id: 23,
-    title: "Chapter 8",
     image: "",
+    title: "Chapter 8",
     admin: "Chapter 8 - The Dream",
     content:
       "Waking in a haze you look around your cabin and it's filled with fog. You abruptly sit up in bed and rush to the door. As you reach for the handle you look down and you notice water spilling into the cabin. You open the door and you are standing at the lake. You see hundreds of empty canoes floating in the misty morning. As you walk closer you begin to sink lower and until your eyes are level with the surface of the lake. You reach for the closest canoe and it flips over. You try to throw your body over it, and you feel tugging on your feet and you slowly sink under the surface. You gasp for air and water fills your lungs. You fade into darkness...",
@@ -374,8 +374,8 @@ const plot = [
   },
   {
     id: 24,
-    title: "Chapter 9",
     image: "",
+    title: "Chapter 9",
     admin: "Chapter 9",
     content:
       "Waking up startled in your cabin, you sit up abruptly in bed, gasping, choking for air. Was that actually Artie? Was Ezra telling me the truth? You sit up and groggily wipe your eyes and see Artie and Ezra on the other side of the cabin playing chess. \nYou walk over to talk to Artie and Ezra. 'I need answers. Now' you demand, throwing the chess board to the floor. 'NONE of this makes any sense, ghosts aren’t real. You can’t just tell me someone’s a GHOST and expect me to be okay with it and carry on like nothing happened.' ",
@@ -392,8 +392,8 @@ const plot = [
   },
   {
     id: 25,
-    title: "Chapter 9",
     image: "",
+    title: "Chapter 9",
     admin: "Chapter 9 || How did you become a medium?",
     content:
       "Everyone is born with psychic abilities. We are familiar with our five senses: touch, taste, sight, hearing, smell. These all play a role in our psychic abilities, along with our sixth sense - intuition. These abilities can become stronger with practice, conditioning them like our muscles.",
@@ -410,8 +410,8 @@ const plot = [
   },
   {
     id: 26,
-    title: "Chapter 9",
     image: "",
+    title: "Chapter 9",
     admin: "Chapter 9 || Is It Hereditary?",
     content:
       "Mediumship is often passed down through family trees, but it can sometimes manifest in someone who has experienced the loss of a loved one.",
@@ -428,8 +428,8 @@ const plot = [
   },
   {
     id: 27,
-    title: "Chapter 9",
     image: "",
+    title: "Chapter 9",
     admin: "Chapter 9 || Do I Stay a Medium Even If We’re Apart?",
     content: "Sure.",
     choices: [
@@ -445,8 +445,8 @@ const plot = [
   },
   {
     id: 28,
-    title: "Chapter 9",
     image: "",
+    title: "Chapter 9",
     admin: "Chapter 9 || How Did You Find Out You Were a Medium?",
     content:
       "Many mediums report contact with spirits starting when they were children. The mind of a child is more open to the energies of the universe and remnants of past lives may still linger. This allows spirits to bridge the veil and make contact.",
@@ -463,6 +463,7 @@ const plot = [
   },
   {
     id: 29,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Can We Help Artie Figure Out Who Killed Him?",
     content:
@@ -476,6 +477,7 @@ const plot = [
   },
   {
     id: 30,
+    image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Ezra Shrugs",
     content:
@@ -489,6 +491,7 @@ const plot = [
   },
   {
     id: 31,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - Next Activity",
     content:
@@ -502,6 +505,7 @@ const plot = [
   },
   {
     id: 32,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - At Cabin",
     content:
@@ -515,6 +519,7 @@ const plot = [
   },
   {
     id: 33,
+    image: "",
     title: "Chapter 10",
     admin: "Chapter 10 - The Search",
     content:
@@ -528,6 +533,7 @@ const plot = [
   },
   {
     id: 34,
+    image: "",
     title: "Chapter 11",
     admin: "Chapter 11 - The Bus",
     content:
@@ -541,6 +547,7 @@ const plot = [
   },
   {
     id: 35,
+    image: "",
     title: "Chapter 11",
     admin: "Chapter 11 || On The Bus",
     content:
@@ -554,6 +561,7 @@ const plot = [
   },
   {
     id: 36,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 - The final chapter",
     content:
@@ -567,6 +575,7 @@ const plot = [
   },
   {
     id: 37,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -580,6 +589,7 @@ const plot = [
   },
   {
     id: 38,
+    image: "",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -597,6 +607,7 @@ const plot = [
   },
   {
     id: 39,
+    image: "",
     title: "Chapter 13",
     admin: "Chapter 13 || Kill Campers",
     content:
@@ -610,6 +621,7 @@ const plot = [
   },
   {
     id: 40,
+    image: "",
     title: "Chapter 13",
     admin: "Chapter 13 || Die",
     content:
@@ -623,6 +635,7 @@ const plot = [
   },
   {
     id: 41,
+    image: "",
     title: "Death",
     admin: "Death",
     content: "You are smashed over the head with a large rock. Game over",
