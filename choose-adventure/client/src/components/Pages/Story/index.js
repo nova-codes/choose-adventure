@@ -1,6 +1,6 @@
 import React from "react";
 import plot from "../../../utils/plotbackup";
-import "./style.css";
+import './style.css';
 
 function Story() {
   const [node, setNode] = React.useState(0);

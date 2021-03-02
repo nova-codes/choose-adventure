@@ -1,12 +1,12 @@
-.story-div {
-    background-color: black;
-    color: #b34180;
-    border: 5px solid #b34180;
+.login-div {
+    background-color: #503D88;
+    color: #f1f1f1;
     width: 50%;
-    height: 450px;
+    min-height: 450px;
     margin-left: 25%;
     margin-top: 10%;
     padding: 25px;
+    font: 16px/120% 'Cutive Mono', monospace;
 }
 
 .form-div {
