@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 
 var chapterSchema = new Schema({
-    _id  : Schema.Types.ObjectId,
+    // _id  : Schema.Types.ObjectId,
     title : String,
     content  : String,
     choices : [{ type: Schema.Types.ObjectId, ref: 'Choice' }]
@@ -11,14 +11,9 @@ var chapterSchema = new Schema({
 
 
 
-var choiceSchema = Schema({
-    text : String,
-    target : [{ type: Schema.Types.ObjectId, ref: 'Chapter' }]
 
-  });
-  
-  var Choice  = mongoose.model('Choice', choiceSchema);
   var Chapter = mongoose.model('Chapter', chapterSchema);
 
+  module.exports = Chapter
 
 
