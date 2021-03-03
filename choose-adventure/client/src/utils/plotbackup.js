@@ -1,7 +1,7 @@
 const plot = [
   {
     id: 0,
-    image: "",
+    image: "../../../assets/images/ignored_1.png",
     title: "Welcome to Camp Slaughter!",
     admin: "Intro",
     content:
@@ -15,7 +15,7 @@ const plot = [
   },
   {
     id: 1,
-    image: "./assets/images/ignored_1.png",
+    image: "../../../assets/images/ignored_1.png",
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
