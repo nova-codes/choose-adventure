@@ -31,8 +31,8 @@ function Admin(){
   }
 
   const handleSelect = e => {
-    console.log(node);
     setNode(e);
+    console.log("HELLO!");
   }
 
   return (
