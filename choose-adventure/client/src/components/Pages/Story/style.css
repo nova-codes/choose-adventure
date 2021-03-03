@@ -10,6 +10,8 @@
 }
 
 .storyImg {
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
     display: flex;
     width: 100%;
     align-items: center;
