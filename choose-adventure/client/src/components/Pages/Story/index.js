@@ -33,7 +33,7 @@ function Story() {
   return (
     <div className="story-div">
       <h2 id="plotTitle">{currentNode.title}</h2>
-      <img id="plotImage" src="{process.env.PUBLIC_URL + currentNode.image}" />
+      <img id="plotImage" src={"../../../assets/images/" + currentNode.image} />
       <p id="plotContent" className="whiteSpace">
         {currentNode.content}
       </p>

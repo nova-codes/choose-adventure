@@ -15,7 +15,7 @@ const plot = [
   },
   {
     id: 1,
-    image: "./assets/images/ignored_1.png",
+    image: "ignored_1.png",
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
@@ -396,7 +396,7 @@ const plot = [
     title: "Chapter 9",
     admin: "Chapter 9 || How did you become a medium?",
     content:
-      "Everyone is born with psychic abilities. We are familiar with our five senses: touch, taste, sight, hearing, smell. These all play a role in our psychic abilities, along with our sixth sense - intuition. These abilities can become stronger with practice, conditioning them like our muscles.",
+      "'Everyone is born with psychic abilities. We are familiar with our five senses: touch, taste, sight, hearing, smell. These all play a role in our psychic abilities, along with our sixth sense - intuition. These abilities can become stronger with practice, conditioning them like our muscles.'",
     choices: [
       {
         text: "Is It Hereditary?",
@@ -414,7 +414,7 @@ const plot = [
     title: "Chapter 9",
     admin: "Chapter 9 || Is It Hereditary?",
     content:
-      "Mediumship is often passed down through family trees, but it can sometimes manifest in someone who has experienced the loss of a loved one.",
+      "'Mediumship is often passed down through family trees, but it can sometimes manifest in someone who has experienced the loss of a loved one.'",
     choices: [
       {
         text: "Do I Stay a Medium Even If We’re Apart?",
@@ -431,7 +431,7 @@ const plot = [
     image: "",
     title: "Chapter 9",
     admin: "Chapter 9 || Do I Stay a Medium Even If We’re Apart?",
-    content: "Sure.",
+    content: "'Sure.'",
     choices: [
       {
         text: "How Did You Find Out You Were a Medium?",
@@ -449,7 +449,7 @@ const plot = [
     title: "Chapter 9",
     admin: "Chapter 9 || How Did You Find Out You Were a Medium?",
     content:
-      "Many mediums report contact with spirits starting when they were children. The mind of a child is more open to the energies of the universe and remnants of past lives may still linger. This allows spirits to bridge the veil and make contact.",
+      "'Many mediums report contact with spirits starting when they were children. The mind of a child is more open to the energies of the universe and remnants of past lives may still linger. This allows spirits to bridge the veil and make contact.'",
     choices: [
       {
         text: "Can We Help Artie Figure Out Who Killed Him?",
@@ -467,7 +467,7 @@ const plot = [
     title: "Chapter 9",
     admin: "Chapter 9 || Can We Help Artie Figure Out Who Killed Him?",
     content:
-      "Mediums are not clairvoyants. Artie would have to know who killed him and communicate that with us.",
+      "'Mediums are not clairvoyants. Artie would have to know who killed him and communicate that with us.'",
     choices: [
       {
         text: "Continue on",
