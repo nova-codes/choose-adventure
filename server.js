@@ -14,6 +14,13 @@ mongoose.connect('mongodb://localhost/chooseadventure',{useNewUrlParser : true,u
     console.log('successfully connected to database');
 });
 
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static('client/build'));
+    app.get('*',(req,res)=>{
+        res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+    });
+}
+
 const userRouter = require('./routes/User');
 app.use('/user',userRouter);
 
