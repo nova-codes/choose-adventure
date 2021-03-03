@@ -31,6 +31,7 @@ function Admin(){
   }
 
   const handleSelect = e => {
+    console.log(node);
     setNode(e);
   }
 
