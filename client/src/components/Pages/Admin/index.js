@@ -32,7 +32,7 @@ function Admin(){
 
   const handleSelect = e => {
     setNode(e);
-    console.log("HELLO!");
+    console.log("Node: " + currentNode);
   }
 
   return (
