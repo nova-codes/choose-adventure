@@ -176,7 +176,7 @@ const plot = [
   {
     id: 11,
     title: "Chapter 4",
-    image: "",
+    image: "/images/rocks.png",
     admin: "Chapter 4 || Walk ",
     content:
       "Ezra convinces you to skip the activity and go for a walk around the lake. As you are walking you notice a large boulder and Ezra hops up on top of it. Ezra turns, looks down at you and asks 'Why do you let those kids pick on you? They clearly are bullies and deserve some pay back don’t you think? And before you have a second to answer Ezra hops back down, and pushes the boulder down the hill. As it tumbles down the hill picking up speed you:",
@@ -193,7 +193,7 @@ const plot = [
   },
   {
     id: 12,
-    image: "",
+    image: "/images/rocks.png",
     title: "Chapter 4",
     admin: "Chapter 4 || Scream",
     content:
@@ -207,7 +207,7 @@ const plot = [
   },
   {
     id: 13,
-    image: "",
+    image: "/images/rocks.png",
     title: "Chapter 4",
     admin: "Chapter 4 || Frozen",
     content:
@@ -221,7 +221,7 @@ const plot = [
   },
   {
     id: 14,
-    image: "",
+    image: "/images/fire_1.png",
     title: "Chapter 5",
     admin: "Chapter 5 - Campfire",
     content:
@@ -239,7 +239,7 @@ const plot = [
   },
   {
     id: 15,
-    image: "",
+    image: "/images/fire_1.png",
     title: "Chapter 5",
     admin: "Chapter 5 || Ezra Story",
     content:
@@ -253,7 +253,7 @@ const plot = [
   },
   {
     id: 16,
-    image: "",
+    image: "/images/fire_1.png",
     title: "Chapter 5",
     admin: "Chapter 5 || Your Story",
     content:
@@ -267,7 +267,7 @@ const plot = [
   },
   {
     id: 17,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 5",
     admin: "Chapter 5 || Cabin",
     content:
@@ -299,7 +299,7 @@ const plot = [
   },
   {
     id: 19,
-    image: "",
+    image: "/images/path.png",
     title: "Chapter 6",
     admin: "Chapter 6 || Look for Artie",
     content:
@@ -332,7 +332,7 @@ const plot = [
   },
   {
     id: 21,
-    image: "",
+    image: "/images/path.png",
     title: "Chapter 6",
     admin: "Chapter 6 || Run/Break Free",
     content:
@@ -346,7 +346,7 @@ const plot = [
   },
   {
     id: 22,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 7",
     admin: "Chapter 7 - Back at the Cabin",
     content:
@@ -360,7 +360,7 @@ const plot = [
   },
   {
     id: 23,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 8",
     admin: "Chapter 8 - The Dream",
     content:
@@ -374,7 +374,7 @@ const plot = [
   },
   {
     id: 24,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9",
     content:
@@ -477,7 +477,7 @@ const plot = [
   },
   {
     id: 30,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || Ezra Shrugs",
     content:
@@ -505,7 +505,7 @@ const plot = [
   },
   {
     id: 32,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 10",
     admin: "Chapter 10 - At Cabin",
     content:
