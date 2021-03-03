@@ -10,7 +10,7 @@ app.use(express.json());
 
 const db = require("./config/keys").mongoURI;
 
-mongoose.connect('mongodb://localhost/chooseadventure',{useNewUrlParser : true,useUnifiedTopology: true, useCreateIndex: true},()=>{
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/chooseadventure',{useNewUrlParser : true,useUnifiedTopology: true, useCreateIndex: true},()=>{
     console.log('successfully connected to database');
 });
 
