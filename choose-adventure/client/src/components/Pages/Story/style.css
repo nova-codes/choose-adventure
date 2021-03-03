@@ -5,19 +5,29 @@
     min-height: 250px;
     margin: 10% auto;
     padding: 45px;
-    font: 16px/120% 'Cutive Mono', monospace;
-    border-radius: 10px; 
+    font: 19px/140% 'Cutive Mono', monospace;
+    border-radius: 10px;
+}
+
+.storyImg {
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0px 20px 0px;
 }
 
 #plotTitle {
     font: 50px/100% 'Yellowtail';
     color: #36DEDE;
     text-shadow: 1px 1px #ff3094,
-                 -1px 1px #ff3094,
-                 1px -1px #ff3094,
-                 -1px -1px #ff3094,
-                 4px 4px #7f0eef;
-    margin-bottom: 30px; 
+        -1px 1px #ff3094,
+        1px -1px #ff3094,
+        -1px -1px #ff3094,
+        4px 4px #7f0eef;
+    margin-bottom: 30px;
 }
 
 #plotContent {
@@ -41,11 +51,16 @@
     color: #fff;
     background-color: #212121;
     padding: 10px 30px;
-    border-radius: 30px; 
-    margin-bottom: 10px; 
-    max-width: 45%; 
+    border-radius: 30px;
+    margin-bottom: 10px;
+    max-width: 45%;
 }
 
 .userChoice-btn:nth-child(even) {
-    border-bottom: 5px solid #36dede; 
+    border-bottom: 5px solid #36dede;
+}
+
+.whiteSpace {
+    white-space: pre-line;
+    vertical-align: bottom;
 }
