@@ -15,7 +15,7 @@ const plot = [
   },
   {
     id: 1,
-    image: "ignored_1.png",
+    image: "/images/ignored_1.png",
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
