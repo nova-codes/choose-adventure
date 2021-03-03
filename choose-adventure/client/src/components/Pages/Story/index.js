@@ -1,6 +1,6 @@
 import React from "react";
 import plot from "../../../utils/plotbackup";
-import './style.css';
+import "./style.css";
 
 function Story() {
   const [node, setNode] = React.useState(0);
@@ -33,8 +33,10 @@ function Story() {
   return (
     <div className="story-div">
       <h2 id="plotTitle">{currentNode.title}</h2>
-      <img id="plotImage" src="{currentNode.image}" />
-      <p id="plotContent">{currentNode.content}</p>
+      <img id="plotImage" src="{process.env.PUBLIC_URL + currentNode.image}" />
+      <p id="plotContent" className="whiteSpace">
+        {currentNode.content}
+      </p>
       <div className="choice-div">
         {currentNode.choices.map((choice) => (
           <button

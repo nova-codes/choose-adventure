@@ -19,7 +19,7 @@ const plot = [
     title: "Chapter 1",
     admin: "Chapter 1",
     content:
-      " 'Hey...hey you,' a voice calls out. You snap out of the day dream you were having.Recently you've been having more of these nightmarish dreams that seem too lifelike. You take a breath, look around to see you made it to camp, and say, 'present.' \nClouds fill the sky on your first day of camp. Noticing other kids now staring, you gather yourself and walk over to the closest group and try to engage them in conversation. Per usual, you find yourself unable to connect with kids your own age, and you think to yourself, 'why is this so difficult for me to do?' \nYou arrive at the head cabin where everyone is checking in, but notice your name isn’t on any list. You try to talk to the camp leaders, but they’re busy and ignoring you - The other campers are making friends and pairing off for bunkmates, leaving you utterly alone with no one to room with. \nAs you meander to the cabin at the edge of camp, dragging your bags behind you, you find the first bunk in an empty cabin at the edge of camp. Lackadaisically, you toss your stuff on your bed and head out to the first activity. ",
+      " 'Hey...hey you,' a voice calls out. You snap out of the day dream you were having.Recently you've been having more of these nightmarish dreams that seem too lifelike. You take a breath, look around to see you made it to camp, and say, 'present.' \n\nClouds fill the sky on your first day of camp. Noticing other kids now staring, you gather yourself and walk over to the closest group and try to engage them in conversation. Per usual, you find yourself unable to connect with kids your own age, and you think to yourself, 'why is this so difficult for me to do?' \n\nYou arrive at the head cabin where everyone is checking in, but notice your name isn’t on any list. You try to talk to the camp leaders, but they’re busy and ignoring you - The other campers are making friends and pairing off for bunkmates, leaving you utterly alone with no one to room with. \n\nAs you meander to the cabin at the edge of camp, dragging your bags behind you, you find the first bunk in an empty cabin at the edge of camp. Lackadaisically, you toss your stuff on your bed and head out to the first activity. ",
     choices: [
       {
         text: "Head to First Activity",
@@ -33,7 +33,7 @@ const plot = [
     title: "Chapter 2",
     admin: "Chapter 2",
     content:
-      "As you arrive back at the main campground you see groups have formed up for a good old fashioned game of tug-of-war. You join the closest team and begin to pull with all your might. The rope leads onto the opposing team’s side and the team captain yells for everyone to pull. Snickering behind you are a couple of kids, who look your way and say, 'not like you’ll be any help!' Do You: ",
+      "As you arrive back at the main campground you see groups have formed up for a good old fashioned game of tug-of-war. You join the closest team and begin to pull with all your might. The rope leads onto the opposing team’s side and the team captain yells for everyone to pull. Snickering behind you are a couple of kids, who look your way and say, 'not like you’ll be any help!' \n\nDo You: ",
     choices: [
       {
         text: "Feel Empowered to Prove Them Wrong? ",
@@ -51,7 +51,7 @@ const plot = [
     title: "Chapter 2",
     admin: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
     content:
-      "As you muster up all your strength to show these kids what you’re made of...you pull on the rope and as you feel your feet dig into the earth all of a sudden the line goes slack and all the other kids let go as you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. 'Alright kids, time for lunch,' a counselor says, 'go hit the showers, clean yourself off, and join us when you're done!'",
+      "As you muster up all your strength to show these kids what you’re made of...you pull on the rope and as you feel your feet dig into the earth all of a sudden the line goes slack and all the other kids let go as you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. \n\n'Alright kids, time for lunch,' a counselor says, 'go hit the showers, clean yourself off, and join us when you're done!'",
     choices: [
       {
         text: "Head to Lunch",
@@ -65,7 +65,7 @@ const plot = [
     title: "Chapter 2",
     admin: "Chapter 2 || Let Go of Rope",
     content:
-      "As you let go of the rope feeling like the kids seem to not want you there, the other team pulls harder every second and before you know it they’ve won. Your team turns to you and scowls, 'thanks a lot!' one kid shouts. As the kids leave for lunch one of them pushes you down and you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. 'Alright kids, time for lunch. You, hit the showers, clean yourself off, and join us when you're done!'",
+      "As you let go of the rope feeling like the kids seem to not want you there, the other team pulls harder every second and before you know it they’ve won. Your team turns to you and scowls, 'thanks a lot!' one kid shouts. As the kids leave for lunch one of them pushes you down and you fall on your ass into the nearest pile of mud. All the kids point and laugh at you. \n\n'Alright kids, time for lunch. You, hit the showers, clean yourself off, and join us when you're done!'",
     choices: [
       {
         text: "Head to Lunch",
@@ -79,7 +79,7 @@ const plot = [
     title: "Chapter 3",
     admin: "Chapter 3 - Lunch",
     content:
-      "After returning from the showers and in a new set of clothes, you scan the room for a friend, just someone to have a connection with, but you then realize where you are. This is Camp A Goni, where you’ve been harassed and bullied for the past few years and yet your parents still force you here because it's 'good for you to make friends.' A sinking feeling in your stomach returns and decides you should…",
+      "After returning from the showers and in a new set of clothes, you scan the room for a friend, just someone to have a connection with, but you then realize where you are. \n\nThis is Camp A Goni, where you’ve been harassed and bullied for the past few years and yet your parents still force you here because it's 'good for you to make friends.' A sinking feeling in your stomach returns and decides you should…",
     choices: [
       {
         text: "Take Your Parent's Advice and Sit with the Winning Team",
@@ -97,7 +97,7 @@ const plot = [
     title: "Chapter 3",
     admin: "Chapter 3 || Sit With the Winning Team",
     content:
-      "As you walk over to the table with the winning team, you hope that with your 'help' on their win, you’d be welcomed...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. \nIt’s been a tough day and I could use a friend too.'The mysterious new kid introduces themself as Ezra and as you both chat and laugh you feel your anxiety melt away as time seems to slip away and before you know it, you hear someone shout, time for the swim! Everyone get your bathing suits and head to the lake! \nEzra turns to you and says, 'what do you want to do?'",
+      "As you walk over to the table with the winning team, you hope that with your 'help' on their win, you’d be welcomed...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. \n\nIt’s been a tough day and I could use a friend too.'The mysterious new kid introduces themself as Ezra and as you both chat and laugh you feel your anxiety melt away as time seems to slip away and before you know it, you hear someone shout, time for the swim! Everyone get your bathing suits and head to the lake! \n\nEzra turns to you and says, 'what do you want to do?'",
     choices: [
       {
         text: "Partake in the Next Activity",
@@ -115,7 +115,7 @@ const plot = [
     title: "Chapter 3",
     admin: "Chapter 3 || Sit Alone",
     content:
-      "As you walk over to the far side of the room...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. It’s been a tough day and I could use a friend too.\n'The mysterious new kid introduces themself as Ezra. As you both chat, laugh, and lose track of time, you feel your anxiety melt away as time seems to slip away endlessly and before you know it, you hear someone shout, ‘time for the swim! Everyone get your bathing suits and head to the lake!\n’Ezra turns to you and says, 'what do you want to do?'",
+      "As you walk over to the far side of the room...you feel a tug on your shirt as you walk past a lone person and hear a voice say, 'you don’t want to go sit with them. Sit...join me, there’s no point in going where you’re not wanted. It’s been a tough day and I could use a friend too.\n\n'The mysterious new kid introduces themself as Ezra. As you both chat, laugh, and lose track of time, you feel your anxiety melt away as time seems to slip away endlessly and before you know it, you hear someone shout, ‘time for the swim! Everyone get your bathing suits and head to the lake!\n\n’Ezra turns to you and says, 'what do you want to do?'",
     choices: [
       {
         text: "Partake in the Next Activity",
@@ -151,7 +151,7 @@ const plot = [
     title: "Chapter 4",
     admin: "Chapter 4 || Yes ",
     content:
-      "Ezra says, 'watch this!' Diving under the water, they disappear from sight and next thing you know kids from the middle of the lake start disappearing under the water one by one, each time, Ezra popping up screaming in a horrific high pitch noise. You laugh as they all swim away and head towards shore. The counselor says 'not funny, Ezra!' Blowing a whistle calls everyone back to shore and cancels the activity.",
+      "Ezra says, 'watch this!' Diving under the water, they disappear from sight and next thing you know kids from the middle of the lake start disappearing under the water one by one, each time, Ezra popping up screaming in a horrific high pitch noise. \n\nYou laugh as they all swim away and head towards shore. The counselor says 'not funny, Ezra!' Blowing a whistle calls everyone back to shore and cancels the activity.",
     choices: [
       {
         text: "Head to Campfire",
@@ -165,7 +165,7 @@ const plot = [
     image: "",
     admin: "Chapter 4 || No ",
     content:
-      "A large young man swims over to you as you both are talking and he introduces himself as Artie. He was the team captain on the opposing team from tug-of-war earlier. Artie says 'Hey, I’m really sorry about the actions of the kids earlier. That’s no way to handle fellow campers and I wanted to apologize. Any team would be lucky to have someone like you on it!' He smiles, quickly turns around, and swims away back to the other kids who are playing 'shark in the water.' Ezra gives him a side eye glance and scoffs. In the distance you hear the sound of a whistle calling everyone back to shore and ending the activity.",
+      "A large young man swims over to you as you both are talking and he introduces himself as Artie. He was the team captain on the opposing team from tug-of-war earlier. Artie says 'Hey, I’m really sorry about the actions of the kids earlier. \n\nThat’s no way to handle fellow campers and I wanted to apologize. Any team would be lucky to have someone like you on it!' He smiles, quickly turns around, and swims away back to the other kids who are playing 'shark in the water.' Ezra gives him a side eye glance and scoffs. In the distance you hear the sound of a whistle calling everyone back to shore and ending the activity.",
     choices: [
       {
         text: "Head to Campfire",
@@ -197,7 +197,7 @@ const plot = [
     title: "Chapter 4",
     admin: "Chapter 4 || Scream",
     content:
-      "You scream as loud as you can and all the kids down below in the lake look up at you and move out of the way as the boulder comes careening down the hill. 'Why’d you do that?!' Ezra angrily asks. You respond, 'You can’t hurt people just cause they hurt me.' You then run down to the lake and a young man you know as Artie approaches, thanking you for watching out for him and his friends. He then adds, 'we should get to the campfire, you can sit with us.’ You feel eyes staring at you as Ezra glares at you from afar. Ezra looks at you and says, 'we should get to the campfire before we get into more trouble.'",
+      "You scream as loud as you can and all the kids down below in the lake look up at you and move out of the way as the boulder comes careening down the hill. 'Why’d you do that?!' Ezra angrily asks. You respond, 'You can’t hurt people just cause they hurt me.' \n\nYou then run down to the lake and a young man you know as Artie approaches, thanking you for watching out for him and his friends. He then adds, 'we should get to the campfire, you can sit with us.’ You feel eyes staring at you as Ezra glares at you from afar. Ezra looks at you and says, 'we should get to the campfire before we get into more trouble.'",
     choices: [
       {
         text: "Head to Campfire",
@@ -211,7 +211,7 @@ const plot = [
     title: "Chapter 4",
     admin: "Chapter 4 || Frozen",
     content:
-      "You scream as loud as you can and all the kids down below in the lake look up at you and move out of the way as the boulder comes careening down the hill. 'Why’d you do that?!' Ezra angrily asks. You respond, 'You can’t hurt people just cause they hurt me.' You then run down to the lake and a young man you know as Artie approaches, thanking you for watching out for him and his friends. He then adds, 'we should get to the campfire, you can sit with us.’ You feel eyes staring at you as Ezra glares at you from afar. Ezra looks at you and says, 'we should get to the campfire before we get into more trouble.' ",
+      "You scream as loud as you can and all the kids down below in the lake look up at you and move out of the way as the boulder comes careening down the hill. 'Why’d you do that?!' Ezra angrily asks. You respond, 'You can’t hurt people just cause they hurt me.' \n\nYou then run down to the lake and a young man you know as Artie approaches, thanking you for watching out for him and his friends. He then adds, 'we should get to the campfire, you can sit with us.’ You feel eyes staring at you as Ezra glares at you from afar. Ezra looks at you and says, 'we should get to the campfire before we get into more trouble.' ",
     choices: [
       {
         text: "Head to Campfire",
@@ -243,7 +243,7 @@ const plot = [
     title: "Chapter 5",
     admin: "Chapter 5 || Ezra Story",
     content:
-      "You turn and nudge Ezra, 'you have to share a scary story now... I triple dog dare you...' Ezra stares back at, eyes wide. He shakes his head, shrugs, and clears his throat. Ehem - ‘HEY GUYS’ Artie abruptly interrupts the ghosts stories and announces 'how about we take a break from this and sing campfire songs' Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
+      "You turn and nudge Ezra, 'you have to share a scary story now... I triple dog dare you...' Ezra stares back at, eyes wide. He shakes his head, shrugs, and clears his throat. \n\nEhem - ‘HEY GUYS’ Artie abruptly interrupts the ghosts stories and announces 'how about we take a break from this and sing campfire songs' Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
     choices: [
       {
         text: "Go Back to Cabin",
@@ -257,7 +257,7 @@ const plot = [
     title: "Chapter 5",
     admin: "Chapter 5 || Your Story",
     content:
-      "You finally muster up the courage to tell a ghost story to the group, as you’ve wanted to impress Ezra. You stand up, knees shaking, heart beating out of your chest, and clear your throat to speak. 'EHEM - ' ‘HEY GUYS’ Artie abruptly interrupts the ghost stories and announces 'it’s time for some campfire songs' Ezra pulls you back down, noticeably irritated that Artie interrupted you before you could even tell your story. Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
+      "You finally muster up the courage to tell a ghost story to the group, as you’ve wanted to impress Ezra. You stand up, knees shaking, heart beating out of your chest, and clear your throat to speak. \n\n'EHEM - ' ‘HEY GUYS’ Artie abruptly interrupts the ghost stories and announces 'it’s time for some campfire songs' Ezra pulls you back down, noticeably irritated that Artie interrupted you before you could even tell your story. Ezra turns to you and says 'Let’s go back to our cabin, I don’t want to be here anymore.'",
     choices: [
       {
         text: "Go Back to Cabin",
@@ -271,7 +271,7 @@ const plot = [
     title: "Chapter 5",
     admin: "Chapter 5 || Cabin",
     content:
-      "Once You and Ezra arrive back at your cabin, you notice there is another camper’s bags on the bunk next to yours. 'Hey, looks like we’re bunkmates now' Ezra says through a grin…. 'My parents dropped me off late and this was the last bunk that was available for me. Guess you’re stuck with me for a few days'.",
+      "Once You and Ezra arrive back at your cabin, you notice there is another camper’s bags on the bunk next to yours. 'Hey, looks like we’re bunkmates now' Ezra says through a grin... 'My parents dropped me off late and this was the last bunk that was available for me. Guess you’re stuck with me for a few days'.",
     choices: [
       {
         text: "Next Day...",
@@ -285,7 +285,7 @@ const plot = [
     title: "Chapter 6",
     admin: "Chapter 6 - First Activity",
     content:
-      "The next day, you arrive at the soccer fields with the other campers for the next activity. The camp counselor has everyone stand in a circle and announces, 'There is no need to be alarmed, but our fellow camper, Artie, has gone missing. After the campfire last night, he went back to his bunk and hasn’t been seen since. So for everyone’s safety...today’s activity has been canceled while we go to look for him. You can grab some games from the Rec hall, but please stay in your cabins until you hear it’s safe to leave again.' Do You:",
+      "The next day, you arrive at the soccer fields with the other campers for the next activity. The camp counselor has everyone stand in a circle and announces, 'There is no need to be alarmed, but our fellow camper, Artie, has gone missing. \n\nAfter the campfire last night, he went back to his bunk and hasn’t been seen since. So for everyone’s safety...today’s activity has been canceled while we go to look for him. You can grab some games from the Rec hall, but please stay in your cabins until you hear it’s safe to leave again.' Do You:",
     choices: [
       {
         text: "Rebel and Go Look for Artie",
@@ -303,7 +303,7 @@ const plot = [
     title: "Chapter 6",
     admin: "Chapter 6 || Look for Artie",
     content:
-      "You decide to go look for Artie. You head back to your cabin to grab some water and a blanket and plan out your next moves. You decide to go look by the river where you and Ezra went walking the day before. 'If I don’t find him, at least the sound of the water will help me clear my head,' you think to yourself. After walking alongside the river for a while, you notice a canoe on the shore. 'That wasn’t there yesterday,’ you think to yourself...You keep walking and finally, you see a young man, dripping water from every inch of him and realize...it’s Artie! \nYou stare, mouth agape, and shout ‘You’re soaking wet, let me dry you off!' You run over to him and attempt to throw your blanket around him to try to dry him off. As soon as the blanket touches him, it passes right through his non-corporeal form. You stare at him and back down at the ground at the blanket that passed right through his being. 'This can’t be happening…' you think to yourself, as you run over to pick up the blanket and try again. Once more, you frantically place your blanket on Artie’s shoulder as it drops to the ground. \nArtie turns to you confused, looking down at his hands. Shaking his head in confusion…. 'W-what's going on…' he stammers. 'Stay here, I will run for help!' you shout back as you throw your things down to run and find the nearest camp counselor. You take off running as someone grabs your hand to hold you back. It’s Ezra. 'Stop - you can’t go anywhere'.",
+      "You decide to go look for Artie. You head back to your cabin to grab some water and a blanket and plan out your next moves. You decide to go look by the river where you and Ezra went walking the day before. 'If I don’t find him, at least the sound of the water will help me clear my head,' you think to yourself. After walking alongside the river for a while, you notice a canoe on the shore. 'That wasn’t there yesterday,’ you think to yourself...You keep walking and finally, you see a young man, dripping water from every inch of him and realize...it’s Artie! \n\nYou stare, mouth agape, and shout ‘You’re soaking wet, let me dry you off!' You run over to him and attempt to throw your blanket around him to try to dry him off. As soon as the blanket touches him, it passes right through his non-corporeal form. You stare at him and back down at the ground at the blanket that passed right through his being. 'This can’t be happening…' you think to yourself, as you run over to pick up the blanket and try again. Once more, you frantically place your blanket on Artie’s shoulder as it drops to the ground. \n\nArtie turns to you confused, looking down at his hands. Shaking his head in confusion…. 'W-what's going on…' he stammers. 'Stay here, I will run for help!' you shout back as you throw your things down to run and find the nearest camp counselor. You take off running as someone grabs your hand to hold you back. It’s Ezra. 'Stop - you can’t go anywhere'.",
     choices: [
       {
         text: "Fight Him",
@@ -321,11 +321,11 @@ const plot = [
     title: "Chapter 6",
     admin: "Chapter 6 || Fight",
     content:
-      "You fall to the ground and start wrestling with Ezra. You have to break free and tell the camp counselors what’s going on. You and Ezra wrestle for a few moments until everything goes black. ... When you come to, your hands are tied behind you, you are in a canoe that is rapidly filling with water. Ezra is pushing the canoe under water with the paddle and slowly grins as he slowly submerges your body under the water. You take your last breath as your head falls under the water line and into the darkness forever.",
+      "You fall to the ground and start wrestling with Ezra. You have to break free and tell the camp counselors what’s going on. You and Ezra wrestle for a few moments until everything goes black. ... When you come to, your hands are tied behind you, you are in a canoe that is rapidly filling with water. \n\nEzra is pushing the canoe under water with the paddle and slowly grins as he slowly submerges your body under the water. You take your last breath as your head falls under the water line and into the darkness forever.",
     choices: [
       {
         text: "Game Over",
-        target: 40,
+        target: 0,
         // ******************* Need to add a target for ending Page? *******************
       },
     ],
@@ -336,7 +336,7 @@ const plot = [
     title: "Chapter 6",
     admin: "Chapter 6 || Run/Break Free",
     content:
-      "You turn around and try to pry your hand free from Ezra’s grip, but he’s too strong. 'LET ME EXPLAIN!! IT’S NOT WHAT YOU THINK!' Ezra proclaims, as you hurriedly yank yourself away from him - still trying to escape his tightening grip. 'I’M A MEDIUM - THIS PLACE IS HAUNTED… JUST STOP STRUGGLING AND LET ME EXPLAIN!!' He yells. 'Fine.' you say stubbornly, but you stay over there. You grab the nearest stick and point it at Ezra, as if to protect yourself. \nEzra goes on to explain, 'I’m a medium… and this camp is haunted. I know that sounds crazy, and you have every right to not believe me… but it’s true,’ he continues. ‘The problem is, whoever is my friend, ends up seeing the dead too. It’s a blessing and a curse. I found Artie, out on the dock, shaking, soaking wet, and scared. Once you’ve died in a gruesome way, you have no memories relating to your death. It’s my job to help them pass over. I tried to help him but he was too shaken up to speak. That’s when I heard you coming down the path - so I hid.'",
+      "You turn around and try to pry your hand free from Ezra’s grip, but he’s too strong. 'LET ME EXPLAIN!! IT’S NOT WHAT YOU THINK!' Ezra proclaims, as you hurriedly yank yourself away from him - still trying to escape his tightening grip. 'I’M A MEDIUM - THIS PLACE IS HAUNTED… JUST STOP STRUGGLING AND LET ME EXPLAIN!!' He yells. 'Fine.' you say stubbornly, but you stay over there. You grab the nearest stick and point it at Ezra, as if to protect yourself. \n\nEzra goes on to explain, 'I’m a medium… and this camp is haunted. I know that sounds crazy, and you have every right to not believe me… but it’s true,’ he continues. ‘The problem is, whoever is my friend, ends up seeing the dead too. It’s a blessing and a curse. I found Artie, out on the dock, shaking, soaking wet, and scared. Once you’ve died in a gruesome way, you have no memories relating to your death. It’s my job to help them pass over. I tried to help him but he was too shaken up to speak. That’s when I heard you coming down the path - so I hid.'",
     choices: [
       {
         text: "Run Away",
@@ -364,7 +364,7 @@ const plot = [
     title: "Chapter 8",
     admin: "Chapter 8 - The Dream",
     content:
-      "Waking in a haze you look around your cabin and it's filled with fog. You abruptly sit up in bed and rush to the door. As you reach for the handle you look down and you notice water spilling into the cabin. You open the door and you are standing at the lake. You see hundreds of empty canoes floating in the misty morning. As you walk closer you begin to sink lower and until your eyes are level with the surface of the lake. You reach for the closest canoe and it flips over. You try to throw your body over it, and you feel tugging on your feet and you slowly sink under the surface. You gasp for air and water fills your lungs. You fade into darkness...",
+      "Waking in a haze you look around your cabin and it's filled with fog. You abruptly sit up in bed and rush to the door. As you reach for the handle you look down and you notice water spilling into the cabin. You open the door and you are standing at the lake. You see hundreds of empty canoes floating in the misty morning. \n\nAs you walk closer you begin to sink lower and until your eyes are level with the surface of the lake. You reach for the closest canoe and it flips over. You try to throw your body over it, and you feel tugging on your feet and you slowly sink under the surface. You gasp for air and water fills your lungs. You fade into darkness...",
     choices: [
       {
         text: "Wake up",
@@ -378,7 +378,7 @@ const plot = [
     title: "Chapter 9",
     admin: "Chapter 9",
     content:
-      "Waking up startled in your cabin, you sit up abruptly in bed, gasping, choking for air. Was that actually Artie? Was Ezra telling me the truth? You sit up and groggily wipe your eyes and see Artie and Ezra on the other side of the cabin playing chess. \nYou walk over to talk to Artie and Ezra. 'I need answers. Now' you demand, throwing the chess board to the floor. 'NONE of this makes any sense, ghosts aren’t real. You can’t just tell me someone’s a GHOST and expect me to be okay with it and carry on like nothing happened.' ",
+      "Waking up startled in your cabin, you sit up abruptly in bed, gasping, choking for air. Was that actually Artie? Was Ezra telling me the truth? You sit up and groggily wipe your eyes and see Artie and Ezra on the other side of the cabin playing chess. \n\nYou walk over to talk to Artie and Ezra. 'I need answers. Now' you demand, throwing the chess board to the floor. 'NONE of this makes any sense, ghosts aren’t real. You can’t just tell me someone’s a GHOST and expect me to be okay with it and carry on like nothing happened.' ",
     choices: [
       {
         text: "How Did You Become a Medium?",
@@ -495,7 +495,7 @@ const plot = [
     title: "Chapter 10",
     admin: "Chapter 10 - Next Activity",
     content:
-      "As you approach the soccer field, you notice a bunch of campers in separate groups, chatting with one another. Camp Counselor Heather makes an announcement over the megaphone: 'ATTENTION CAMPERS - PLEASE CIRCLE UP AND TAKE A SEAT, WE HAVE AN IMPORTANT ANNOUNCEMENT TO MAKE…' \nOnce the commotion subsides and everyone is seated, the head of camp, Barb starts to speak, hesitantly… 'Campers, we don’t want to alarm you, but another person has gone missing this week. Camp Counselor Dalonte has not been seen since last night’s game of Capture the Flag. Because of this, we think it would be best for all of you to go home early. We know it’s not ideal, but we don’t want to risk losing any more of you. We’ve contacted your families to come pick you up.’\nShe continues… ‘Back in 1974, when I was a camper, just like you, something like this began happening  where other campers went missing. First, one camper disappeared, then the numbers exponentially grew…until 13 campers and counselors seemed to vanish out of thin air. \nThey didn’t send us home, so we were stuck in our cabins every day, fearing we were next and  just praying we would be sent home. Police were called. Investigations were made. Pastors, rabbis, and any clergy folk  would try and cleanse the grounds. They all said the problem would never occur again after their “work,” so the camp remained open and the case of the missing persons became a mystery of the decade. I’ve gotten off track and I am not trying to scare you.\nYou all have 2 hours - head back to your cabins, pack up your things and meet at the main circle to load the buses.' The chatter and fear was palpable as everyone reluctantly stood up from their spots and quickly made their way back to their cabins to pack up their things.",
+      "As you approach the soccer field, you notice a bunch of campers in separate groups, chatting with one another. Camp Counselor Heather makes an announcement over the megaphone: 'ATTENTION CAMPERS - PLEASE CIRCLE UP AND TAKE A SEAT, WE HAVE AN IMPORTANT ANNOUNCEMENT TO MAKE…' \n\nOnce the commotion subsides and everyone is seated, the head of camp, Barb starts to speak, hesitantly… 'Campers, we don’t want to alarm you, but another person has gone missing this week. Camp Counselor Dalonte has not been seen since last night’s game of Capture the Flag. Because of this, we think it would be best for all of you to go home early. We know it’s not ideal, but we don’t want to risk losing any more of you. We’ve contacted your families to come pick you up.’\n\nShe continues… ‘Back in 1974, when I was a camper, just like you, something like this began happening  where other campers went missing. First, one camper disappeared, then the numbers exponentially grew…until 13 campers and counselors seemed to vanish out of thin air. \n\nThey didn’t send us home, so we were stuck in our cabins every day, fearing we were next and  just praying we would be sent home. Police were called. Investigations were made. Pastors, rabbis, and any clergy folk  would try and cleanse the grounds. They all said the problem would never occur again after their “work,” so the camp remained open and the case of the missing persons became a mystery of the decade. I’ve gotten off track and I am not trying to scare you.\n\nYou all have 2 hours - head back to your cabins, pack up your things and meet at the main circle to load the buses.' The chatter and fear was palpable as everyone reluctantly stood up from their spots and quickly made their way back to their cabins to pack up their things.",
     choices: [
       {
         text: "Head Back to Cabin",
@@ -551,7 +551,7 @@ const plot = [
     title: "Chapter 11",
     admin: "Chapter 11 || On The Bus",
     content:
-      "You step inside the hauntingly empty bus. You crouch down to see if anyone is hiding under the seats. As you stand up and walk to the back of the bus you see bags packed on each of the seats and you feel a cold breeze run up your spine so you rush to the wheel to take the brick off the horn. 'I didn’t think it’d be this easy'... you hear a familiar voice say from behind you.  You turn to find a familiar face standing in front of you and you brokenly say, 'EZR-' as you are struck over the head as you black out, you hear two voices giggling. ",
+      "You step inside the hauntingly empty bus. You crouch down to see if anyone is hiding under the seats. As you stand up and walk to the back of the bus you see bags packed on each of the seats and you feel a cold breeze run up your spine so you rush to the wheel to take the brick off the horn. \n\n'I didn’t think it’d be this easy'... you hear a familiar voice say from behind you.  You turn to find a familiar face standing in front of you and you brokenly say, 'EZR-' as you are struck over the head as you black out, you hear two voices giggling. ",
     choices: [
       {
         text: "Continue",
@@ -565,7 +565,7 @@ const plot = [
     title: "Chapter 12",
     admin: "Chapter 12 - The final chapter",
     content:
-      "You wake up, in a daze. Your head is pounding. You try to reach up to tend the wound on your forehead - blood is gushing from your forehead into your eye - as you try to wipe it away, you realize your hands are tied and there is no way for you to stop the bleeding. You look around and find yourself in a canoe floating on the Camp lake. You begin to breathe heavily as you try to squirm free. From the shore you see two hauntingly familiar figures that you identify as Artie and Ezra. \nEzra approaches the dock your canoe is tied to, slowly, kneels down, and looks you into the eyes. 'Hello. It’s time for you to make a decision. Whatever you choose will decide the fate of you and the other campers…'\nYou shake your head, petrified. ",
+      "You wake up, in a daze. Your head is pounding. You try to reach up to tend the wound on your forehead - blood is gushing from your forehead into your eye - as you try to wipe it away, you realize your hands are tied and there is no way for you to stop the bleeding. You look around and find yourself in a canoe floating on the Camp lake. You begin to breathe heavily as you try to squirm free. From the shore you see two hauntingly familiar figures that you identify as Artie and Ezra. \n\nEzra approaches the dock your canoe is tied to, slowly, kneels down, and looks you into the eyes. 'Hello. It’s time for you to make a decision. Whatever you choose will decide the fate of you and the other campers…'\n\nYou shake your head, petrified. ",
     choices: [
       {
         text: "'Why are you doing this, Ezra?' ",
@@ -611,11 +611,11 @@ const plot = [
     title: "Chapter 13",
     admin: "Chapter 13 || Kill Campers",
     content:
-      "One by one, you and Ezra take turns pushing each canoe out to the middle of the lake. Before you do, you place a few heavy stones in each one and make a small hole in the middle so each slowly sinks into eternity. The shrieks from each camper can be heard by only the helpless wildlife nearby as they gurgle and drown. You see their souls leave their bodies…Are you finally happy being noticed? Is this what you craved all along? You are a monster and as you look at the blood on your hands, Ezra reaches his hand out to you and you both walk into the forest never to be seen again. ",
+      "One by one, you and Ezra take turns pushing each canoe out to the middle of the lake. Before you do, you place a few heavy stones in each one and make a small hole in the middle so each slowly sinks into eternity. The shrieks from each camper can be heard by only the helpless wildlife nearby as they gurgle and drown. \n\nYou see their souls leave their bodies…Are you finally happy being noticed? Is this what you craved all along? You are a monster and as you look at the blood on your hands, Ezra reaches his hand out to you and you both walk into the forest never to be seen again. ",
     choices: [
       {
-        text: "The end",
-        target: 41,
+        text: "Play Again",
+        target: 0,
       },
     ],
   },
@@ -625,11 +625,11 @@ const plot = [
     title: "Chapter 13",
     admin: "Chapter 13 || Die",
     content:
-      "'Please Ezra! It doesn’t have to be this way!!' You plead, as Ezra slowly pulls the rope on your canoe that reveals a large hole. Your canoe starts to quickly fill with water. Ezra takes a paddle in his hands and slowly helps push your canoe down under the water as you sit - completely unable to break free from your ties. You take one last breath as your eyes are surface level with the lake. The last thing you see is Ezra’s face - completely emotionless, watching you as everything goes black...",
+      "'Please Ezra! It doesn’t have to be this way!!' You plead, as Ezra slowly pulls the rope on your canoe that reveals a large hole. Your canoe starts to quickly fill with water. Ezra takes a paddle in his hands and slowly helps push your canoe down under the water as you sit - completely unable to break free from your ties. \n\nYou take one last breath as your eyes are surface level with the lake. The last thing you see is Ezra’s face - completely emotionless, watching you as everything goes black...",
     choices: [
       {
         text: "Play Again",
-        target: 41,
+        target: 0,
       },
     ],
   },
@@ -641,8 +641,8 @@ const plot = [
     content: "You are smashed over the head with a large rock. Game over",
     choices: [
       {
-        text: "The end",
-        target: 41,
+        text: "Start Over",
+        target: 0,
       },
     ],
   },
