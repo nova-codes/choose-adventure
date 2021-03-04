@@ -547,7 +547,7 @@ const plot = [
   },
   {
     id: 35,
-    image: "/images/bus.png",
+    image: "/images/insidebus.png",
     title: "Chapter 11",
     admin: "Chapter 11 || On The Bus",
     content:
