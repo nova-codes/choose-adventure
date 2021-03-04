@@ -37,7 +37,7 @@ function Admin(){
 
   return (
     <div className="dash-container">
-      <h1>ADMIN DASHBOARD</h1>
+      <h1>Admin Dashboard</h1>
       <div className="dropdown-div">
         <Dropdown>
           <Dropdown.Toggle variant="light" className="dropdown" id="dropdown-basic">
@@ -53,10 +53,10 @@ function Admin(){
       </div>
 
       <div className="btn-div">
-        <button className="btn" onClick={() => setNode(0)}>{"<<"}</button>
-        <button className="btn" onClick={nodeDecrease}>-1</button>
-        <button className="btn" onClick={nodeIncrease}>+1</button>
-        <button className="btn" onClick={lastNode}>{">>"}</button>
+        <button className="btn admin-btn" onClick={() => setNode(0)}>{"<<"}</button>
+        <button className="btn admin-btn" onClick={nodeDecrease}>-1</button>
+        <button className="btn admin-btn" onClick={nodeIncrease}>+1</button>
+        <button className="btn admin-btn" onClick={lastNode}>{">>"}</button>
       </div>
       <h2>Node {node}: {currentNode.title}</h2>
       <p>Content: {currentNode.content}</p>
@@ -64,7 +64,7 @@ function Admin(){
       {currentNode.choices.map((choice) => (
         <>
           <p>{choice.text}</p>
-          <button onClick={() => targetClick(choice.target)}>Target: {choice.target}</button>
+          <button className='btn admin-btn' onClick={() => targetClick(choice.target)}>Target: {choice.target}</button>
         </>
       ))}
     </div>
