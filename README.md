@@ -31,11 +31,11 @@ I.D.A. (inter-dependent arising - middle doctrine, named pratitya-samutpada in S
 ![Image of Background ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/main_bg.jpg)
 The user is greeted by the landing page where they can either play the story or login into the admin account to change the story details to their liking.
 
-![Image of Admin Login Page ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/adminLogin)
+![Image of Admin Login Page ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/adminLogin.jpg)
 
-![Image of Admin Login Page ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/adminLogin2)
+![Image of Admin Login Page ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/adminLogin2.jpg)
 
-![Image of Landing ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/landing_page)
+![Image of Landing ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/landing_page.jpg)
 
 The player is welcomed to the summer camp where they are taken on a journey through multiple days and left with a difficult decision that will altar their lives forevermore.
 
@@ -43,17 +43,17 @@ The player is welcomed to the summer camp where they are taken on a journey thro
 
 The player then will continue to experience the thrill of the story with 8-bit style images and choices options along the way.
 
-![Image of Narrative Styling ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/narrative1)
+![Image of Narrative Styling ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/narrative1.jpg)
 
-![Image of Story Plots ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/storyPlot1)
+![Image of Story Plots ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/storyPlot1.jpg)
 
 As the player progresses, the choices will become more difficult and take you down alternating paths.
 
-![Image of Choices for players ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/choices)
+![Image of Choices for players ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/choices.jpg)
 
 And what choose your own adventure would be complete without a couple of death screens and failed attempts along the way!
 
-![Image of Death Screen ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/deathScreen)
+![Image of Death Screen ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/deathScreen.jpg)
 
 ## Installation
 
