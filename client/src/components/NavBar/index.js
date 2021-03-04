@@ -59,11 +59,10 @@ const NavBar = (props) => {
         <li className="nav-item pad nav-style">
           <Link to="/">HOME</Link>
         </li>
-      <li> 
-        <SoundButton />
-        </li>
-
         {!isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
+        <li> 
+          <SoundButton />
+        </li>
       </ul>
     </nav>
   );
