@@ -10,13 +10,17 @@
 }
 
 .storyImg {
-    border-radius: 20px 20px 20px 20px;
-    object-fit: cover;
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px 0px 20px 0px;
+}
+
+.storyImg img {
+    border-radius: 10px;
+    min-width: 200px;
+    height: auto; 
+    object-fit: cover;
 }
 
 #plotTitle {
