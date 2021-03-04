@@ -49,7 +49,6 @@ const NavBar = (props) => {
 
 
    
-
   return (
     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
       <ul className="nav navbar-nav navbar-expand-lg">
@@ -59,18 +58,14 @@ const NavBar = (props) => {
         <li className="nav-item pad nav-style">
           <Link to="/">HOME</Link>
         </li>
-      <li> 
-        <SoundButton />
-        </li>
-
         {!isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
+        <li> 
+          <SoundButton />
+        </li>
       </ul>
     </nav>
   );
 };
-
-export default NavBar;
-
 // import React, {useContext} from 'react';
 // import {Link} from 'react-router-dom';
 // import './style.css';
