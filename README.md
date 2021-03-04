@@ -49,11 +49,11 @@ The player then will continue to experience the thrill of the story with 8-bit s
 
 As the player progresses, the choices will become more difficult and take you down alternating paths.
 
-![Image of Choices for players ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/choices.jpg)
+![Image of Choices for players ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/choices1.png)
 
 And what choose your own adventure would be complete without a couple of death screens and failed attempts along the way!
 
-![Image of Death Screen ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/deathScreen.jpg)
+![Image of Death Screen ](https://github.com/ethanrmcdowell/choose-adventure/blob/main/client/public/images/deathScreen.png)
 
 ## Installation
 
