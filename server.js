@@ -10,16 +10,15 @@ app.use(express.json());
 
 const db = require("./config/keys").mongoURI;
 
-const url = 'mongodb+srv://emilyemily:Project3oof@cluster0.cmkyl.mongodb.net/choose-adventure?retryWrites=true&w=majority';
-
-mongoose.connect(url,
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-  }
-);
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost/choose-adventure',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false
+    }
+ );
 
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'));
