@@ -1,7 +1,7 @@
 const plot = [
   {
     id: 0,
-    image: "../../../assets/images/ignored_1.png",
+    image: "/images/cabin2.png",
     title: "Welcome to Camp Slaughter!",
     admin: "Intro",
     content:
@@ -29,7 +29,7 @@ const plot = [
   },
   {
     id: 2,
-    image: "",
+    image: "/images/field.png",
     title: "Chapter 2",
     admin: "Chapter 2",
     content:
@@ -47,7 +47,7 @@ const plot = [
   },
   {
     id: 3,
-    image: "",
+    image: "/images/field.png",
     title: "Chapter 2",
     admin: "Chapter 2 || Feel Empowered to Prove Them Wrong?",
     content:
@@ -61,7 +61,7 @@ const plot = [
   },
   {
     id: 4,
-    image: "",
+    image: "/images/field.png",
     title: "Chapter 2",
     admin: "Chapter 2 || Let Go of Rope",
     content:
@@ -75,7 +75,7 @@ const plot = [
   },
   {
     id: 5,
-    image: "",
+    image: "/images/lunch.png",
     title: "Chapter 3",
     admin: "Chapter 3 - Lunch",
     content:
@@ -93,7 +93,7 @@ const plot = [
   },
   {
     id: 6,
-    image: "",
+    image: "/images/lunch.png",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit With the Winning Team",
     content:
@@ -111,7 +111,7 @@ const plot = [
   },
   {
     id: 7,
-    image: "",
+    image: "/images/lunch.png",
     title: "Chapter 3",
     admin: "Chapter 3 || Sit Alone",
     content:
@@ -129,7 +129,7 @@ const plot = [
   },
   {
     id: 8,
-    image: "",
+    image: "/images/swimming.png",
     title: "Chapter 4",
     admin: "Chapter 4 - Swimming",
     content:
@@ -147,7 +147,7 @@ const plot = [
   },
   {
     id: 9,
-    image: "",
+    image: "/images/swimming.png",
     title: "Chapter 4",
     admin: "Chapter 4 || Yes ",
     content:
@@ -162,7 +162,7 @@ const plot = [
   {
     id: 10,
     title: "Chapter 4",
-    image: "",
+    image: "/images/swimming.png",
     admin: "Chapter 4 || No ",
     content:
       "A large young man swims over to you as you both are talking and he introduces himself as Artie. He was the team captain on the opposing team from tug-of-war earlier. Artie says 'Hey, I’m really sorry about the actions of the kids earlier. \n\nThat’s no way to handle fellow campers and I wanted to apologize. Any team would be lucky to have someone like you on it!' He smiles, quickly turns around, and swims away back to the other kids who are playing 'shark in the water.' Ezra gives him a side eye glance and scoffs. In the distance you hear the sound of a whistle calling everyone back to shore and ending the activity.",
@@ -281,7 +281,7 @@ const plot = [
   },
   {
     id: 18,
-    image: "",
+    image: "/images/field.png",
     title: "Chapter 6",
     admin: "Chapter 6 - First Activity",
     content:
@@ -293,17 +293,17 @@ const plot = [
       },
       {
         text: "Go for a Walk Alone to Clear Your Head",
-        target: 20,
+        target: 19,
       },
     ],
   },
   {
     id: 19,
-    image: "/images/path.png",
+    image: "/images/canoes.png",
     title: "Chapter 6",
     admin: "Chapter 6 || Look for Artie",
     content:
-      "You decide to go look for Artie. You head back to your cabin to grab some water and a blanket and plan out your next moves. You decide to go look by the river where you and Ezra went walking the day before. 'If I don’t find him, at least the sound of the water will help me clear my head,' you think to yourself. After walking alongside the river for a while, you notice a canoe on the shore. 'That wasn’t there yesterday,’ you think to yourself...You keep walking and finally, you see a young man, dripping water from every inch of him and realize...it’s Artie! \n\nYou stare, mouth agape, and shout ‘You’re soaking wet, let me dry you off!' You run over to him and attempt to throw your blanket around him to try to dry him off. As soon as the blanket touches him, it passes right through his non-corporeal form. You stare at him and back down at the ground at the blanket that passed right through his being. 'This can’t be happening…' you think to yourself, as you run over to pick up the blanket and try again. Once more, you frantically place your blanket on Artie’s shoulder as it drops to the ground. \n\nArtie turns to you confused, looking down at his hands. Shaking his head in confusion…. 'W-what's going on…' he stammers. 'Stay here, I will run for help!' you shout back as you throw your things down to run and find the nearest camp counselor. You take off running as someone grabs your hand to hold you back. It’s Ezra. 'Stop - you can’t go anywhere'.",
+      "You head back to your cabin to grab some water and a blanket and plan out your next moves. You decide to go look by the river where you and Ezra went walking the day before. 'If I don’t find him, at least the sound of the water will help me clear my head,' you think to yourself. After walking alongside the river for a while, you notice a canoe on the shore. 'That wasn’t there yesterday,’ you think to yourself...You keep walking and finally, you see a young man, dripping water from every inch of him and realize...it’s Artie! \n\nYou stare, mouth agape, and shout ‘You’re soaking wet, let me dry you off!' You run over to him and attempt to throw your blanket around him to try to dry him off. As soon as the blanket touches him, it passes right through his non-corporeal form. You stare at him and back down at the ground at the blanket that passed right through his being. 'This can’t be happening…' you think to yourself, as you run over to pick up the blanket and try again. Once more, you frantically place your blanket on Artie’s shoulder as it drops to the ground. \n\nArtie turns to you confused, looking down at his hands. Shaking his head in confusion…. 'W-what's going on…' he stammers. 'Stay here, I will run for help!' you shout back as you throw your things down to run and find the nearest camp counselor. You take off running as someone grabs your hand to hold you back. It’s Ezra. 'Stop - you can’t go anywhere'.",
     choices: [
       {
         text: "Fight Him",
@@ -317,7 +317,7 @@ const plot = [
   },
   {
     id: 20,
-    image: "",
+    image: "/images/canoes.png",
     title: "Chapter 6",
     admin: "Chapter 6 || Fight",
     content:
@@ -332,7 +332,7 @@ const plot = [
   },
   {
     id: 21,
-    image: "/images/path.png",
+    image: "/images/canoes.png",
     title: "Chapter 6",
     admin: "Chapter 6 || Run/Break Free",
     content:
@@ -360,7 +360,7 @@ const plot = [
   },
   {
     id: 23,
-    image: "/images/cabin.png",
+    image: "/images/drown.png",
     title: "Chapter 8",
     admin: "Chapter 8 - The Dream",
     content:
@@ -392,7 +392,7 @@ const plot = [
   },
   {
     id: 25,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || How did you become a medium?",
     content:
@@ -410,7 +410,7 @@ const plot = [
   },
   {
     id: 26,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || Is It Hereditary?",
     content:
@@ -428,7 +428,7 @@ const plot = [
   },
   {
     id: 27,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || Do I Stay a Medium Even If We’re Apart?",
     content: "'Sure.'",
@@ -445,7 +445,7 @@ const plot = [
   },
   {
     id: 28,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || How Did You Find Out You Were a Medium?",
     content:
@@ -463,7 +463,7 @@ const plot = [
   },
   {
     id: 29,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 9",
     admin: "Chapter 9 || Can We Help Artie Figure Out Who Killed Him?",
     content:
@@ -491,7 +491,7 @@ const plot = [
   },
   {
     id: 31,
-    image: "",
+    image: "/images/field.png",
     title: "Chapter 10",
     admin: "Chapter 10 - Next Activity",
     content:
@@ -505,7 +505,7 @@ const plot = [
   },
   {
     id: 32,
-    image: "/images/cabin.png",
+    image: "/images/chess.png",
     title: "Chapter 10",
     admin: "Chapter 10 - At Cabin",
     content:
@@ -519,7 +519,7 @@ const plot = [
   },
   {
     id: 33,
-    image: "",
+    image: "/images/cabin.png",
     title: "Chapter 10",
     admin: "Chapter 10 - The Search",
     content:
@@ -533,7 +533,7 @@ const plot = [
   },
   {
     id: 34,
-    image: "",
+    image: "/images/bus.png",
     title: "Chapter 11",
     admin: "Chapter 11 - The Bus",
     content:
@@ -547,7 +547,7 @@ const plot = [
   },
   {
     id: 35,
-    image: "",
+    image: "/images/insidebus.png",
     title: "Chapter 11",
     admin: "Chapter 11 || On The Bus",
     content:
@@ -561,7 +561,7 @@ const plot = [
   },
   {
     id: 36,
-    image: "",
+    image: "/images/final_canoe.png",
     title: "Chapter 12",
     admin: "Chapter 12 - The final chapter",
     content:
@@ -575,7 +575,7 @@ const plot = [
   },
   {
     id: 37,
-    image: "",
+    image: "/images/final_canoe.png",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -589,7 +589,7 @@ const plot = [
   },
   {
     id: 38,
-    image: "",
+    image: "/images/final_canoe.png",
     title: "Chapter 12",
     admin: "Chapter 12 || Dialogue",
     content:
@@ -597,17 +597,17 @@ const plot = [
     choices: [
       {
         text: "Die",
-        target: 39,
+        target: 40,
       },
       {
         text: "Kill Campers",
-        target: 40,
+        target: 39,
       },
     ],
   },
   {
     id: 39,
-    image: "",
+    image: "/images/drown.png",
     title: "Chapter 13",
     admin: "Chapter 13 || Kill Campers",
     content:
@@ -621,7 +621,7 @@ const plot = [
   },
   {
     id: 40,
-    image: "",
+    image: "/images/drown.png",
     title: "Chapter 13",
     admin: "Chapter 13 || Die",
     content:
@@ -635,7 +635,7 @@ const plot = [
   },
   {
     id: 41,
-    image: "",
+    image: "/images/rocks.png",
     title: "Death",
     admin: "Death",
     content: "You are smashed over the head with a large rock. Game over",
