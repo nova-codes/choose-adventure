@@ -10,7 +10,7 @@ app.use(express.json());
 
 const db = require("./config/keys").mongoURI;
 
-const url = 'mongodb+srv://emilyemily:Project3oof@cluster0.cmkyl.mongodb.net/choose-adventure?retryWrites=true&w=majority';
+const url = 'mongodb+srv://izkizk:Project3oof@cluster0.cmkyl.mongodb.net/choose-adventure?retryWrites=true&w=majority';
 
 mongoose.connect(url,
   {
@@ -22,7 +22,7 @@ mongoose.connect(url,
 );
 
 if (process.env.NODE_ENV === 'production') {
-    app.use(express.static('client/build'));
+  app.use(express.static('client/build'));
 }
 
 const userRouter = require('./routes/User');
