@@ -10,9 +10,8 @@ app.use(express.json());
 
 const db = require("./config/keys").mongoURI;
 
-const url = 'mongodb+srv://izkizk:Project3oof@cluster0.cmkyl.mongodb.net/choose-adventure?retryWrites=true&w=majority';
-
-mongoose.connect(url,
+mongoose.connect(
+  process.env.MONGODB_URI || 'mongodb://localhost/choose-adventure',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
