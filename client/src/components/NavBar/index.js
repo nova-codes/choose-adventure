@@ -49,60 +49,27 @@ const NavBar = (props) => {
 
 
    
-
   return (
-    <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
+    <nav className="navbar navbar-default navbar-dark bg-dark">
       <ul className="nav navbar-nav navbar-expand-lg">
         <li>
           <Logo />
         </li>
+        </ul>
+        <ul className="nav navbar-nav navbar-expand-lg ml-auto">
         <li className="nav-item pad nav-style">
           <Link to="/">HOME</Link>
         </li>
         {!isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar()}
-        <li> 
-          <SoundButton />
-        </li>
+        </ul>
+        <ul className="navbar-nav ml-auto">
+          <li> 
+            <SoundButton />
+          </li>
       </ul>
     </nav>
   );
 };
 
+
 export default NavBar;
-
-// import React, {useContext} from 'react';
-// import {Link} from 'react-router-dom';
-// import './style.css';
-// import AuthService from '../../authentication/AuthService';
-// import { AuthContext } from '../../authentication/AuthContext';
-
-// function Navbar(props) {
-//   const {isAuthenticated, user, setIsAuthenticated, setUser} = useContext(AuthContext);
-
-//   const unauthenticatedNavBar = () => {
-//     return(
-//       <Link to="/login">ADMIN</Link>
-//     )
-//   }
-
-//   const authenticatedNavBar = () => {
-//     return(
-//       <Link to="/admin">ADMIN</Link>
-//     )
-//   }
-
-//   return(
-//     <nav className="navbar navbar-default navbar-dark bg-dark justify-content-center">
-//       <ul className="nav navbar-nav navbar-expand-lg">
-//       <li className="nav-item pad">
-//           <Link to="/">HOME</Link>
-//         </li>
-//         <li className="nav-item pad">
-//           { !isAuthenticated ? unauthenticatedNavBar() : authenticatedNavBar() }
-//         </li>
-//       </ul>
-//     </nav>
-//   )
-// }
-
-// export default Navbar;
